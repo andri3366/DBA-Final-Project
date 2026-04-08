@@ -1,0 +1,649 @@
+RecordID,VisitDate,Diagnosis,PatientID,DoctorID
+1,2026-03-13,Acute Kidney Injury,Surgery,334,91
+2,2026-01-17,Aortic Aneurysm,Medication,513,20
+3,2026-01-01,Basal Cell Carcinoma,Medication,171,84
+4,2025-03-24,Pleural Effusion,Surgery,100,100
+5,2023-05-24,Chronic Kidney Disease,Surgery,259,37
+6,2023-04-20,Acute Kidney Injury,Surgery,575,91
+7,2024-06-10,Pharyngitis,Medication,478,53
+8,2025-10-10,Anxiety Disorder,Medication,37,64
+9,2023-05-23,Acute Kidney Injury,Surgery,26,67
+10,2024-03-11,Chronic Obstructive Pulmonary Disease,Surgery,101,50
+11,2024-02-13,Psoriasis,Medication,235,84
+12,2026-01-08,Cholecystitis,Medication,336,24
+13,2024-09-11,Pneumothorax,Medication,95,100
+14,2024-01-22,Pancreatic Cancer,Medication,545,79
+15,2024-01-03,Macular Degeneration,Medication,181,19
+16,2025-12-04,Sleep Apnea,Medication,521,100
+17,2025-03-17,Coronary Artery Disease,Medication,332,83
+18,2024-12-28,Congestive Heart Failure,Medication,69,69
+19,2026-03-24,Leukopenia,Surgery,167,27
+20,2024-05-18,Brain Tumor,Surgery,173,47
+21,2024-05-07,COVID-19,Medication,286,80
+22,2025-12-21,Bladder Cancer,Medication,187,88
+23,2024-01-13,Vitamin D Deficiency,Medication,190,60
+24,2025-07-31,Angina Pectoris,Medication,288,11
+25,2025-06-24,Migraine,Medication,410,12
+26,2025-05-19,Cirrhosis,Medication,540,116
+27,2025-11-27,Glaucoma,Medication,586,103
+28,2023-12-02,Sickle Cell Disease,Medication,79,9
+29,2023-09-13,Melanoma,Medication,83,71
+30,2024-08-08,Allergic Rhinitis,Medication,462,95
+31,2026-01-31,Autism Spectrum Disorder,Medication,444,6
+32,2025-09-02,Glaucoma,Medication,359,54
+33,2023-04-13,Meniere's Disease,Medication,23,53
+34,2024-11-16,Fibromyalgia,Medication,104,5
+35,2024-08-26,Chronic Liver Disease,Surgery,478,99
+36,2025-03-14,Polycystic Ovary Syndrome,Medication,371,2
+37,2025-04-28,Colon Cancer,Medication,562,102
+38,2023-11-14,Sjögren's Syndrome,Medication,379,113
+39,2024-04-02,Type 1 Diabetes,Medication,214,33
+40,2025-04-04,Schizophrenia,Surgery,558,126
+41,2023-09-06,Type 2 Diabetes,Medication,157,60
+42,2024-09-13,Nephrotic Syndrome,Medication,422,3
+43,2023-05-28,Chronic Kidney Disease,Surgery,499,37
+44,2023-11-02,Colon Cancer,Medication,430,89
+45,2025-12-20,Pericarditis,Medication,305,81
+46,2023-10-22,Chronic Liver Disease,Surgery,452,99
+47,2023-04-10,Chronic Obstructive Pulmonary Disease,Surgery,337,100
+48,2026-03-23,Fecal Incontinence,Medication,108,23
+49,2025-07-07,Fibromyalgia,Medication,246,97
+50,2025-04-03,Substance Use Disorder,Medication,533,6
+51,2025-06-30,Fecal Incontinence,Medication,133,92
+52,2025-11-06,Uterine Fibroids,Medication,546,66
+53,2025-03-01,Chronic Liver Disease,Surgery,381,116
+54,2024-06-16,Pulmonary Hypertension,Surgery,400,120
+55,2026-01-08,Irritable Bowel Syndrome,Medication,569,99
+56,2023-12-12,Bladder Cancer,Medication,103,88
+57,2023-07-24,Stroke,Therapy,325,85
+58,2025-01-08,Urinary Tract Infection,Medication,535,29
+59,2023-07-31,Rosacea,Medication,158,21
+60,2024-06-05,Influenza,Medication,424,111
+61,2023-09-22,Cystic Fibrosis,Medication,532,50
+62,2025-05-02,Fibromyalgia,Medication,239,113
+63,2026-01-12,Iron Deficiency Anemia,Medication,111,51
+64,2023-12-17,Hearing Loss,Medication,411,53
+65,2023-11-18,Pyelonephritis,Therapy,285,67
+66,2023-11-08,Bipolar Disorder,Medication,328,6
+67,2023-05-03,Thyroid Cancer,Medication,115,72
+68,2025-04-23,Sjögren's Syndrome,Medication,453,5
+69,2023-09-01,Rosacea,Medication,227,63
+70,2023-09-24,Chronic Sinusitis,Surgery,555,25
+71,2024-10-14,Rosacea,Medication,420,63
+72,2023-05-22,Peripheral Neuropathy,Medication,560,122
+73,2025-11-23,Pancreatic Cancer,Medication,277,79
+74,2023-09-14,Benign Prostatic Hyperplasia,Medication,55,88
+75,2025-12-09,Otitis Media,Medication,553,25
+76,2025-07-12,Bipolar Disorder,Medication,312,64
+77,2025-03-13,Preeclampsia,Medication,240,101
+78,2024-04-13,Sarcoidosis,Medication,510,35
+79,2024-04-04,Macular Degeneration,Medication,243,19
+80,2023-12-11,Influenza,Medication,293,8
+81,2024-07-26,Anal Fissure,Medication,218,23
+82,2025-01-18,Anemia,Medication,501,115
+83,2023-07-02,Osteoporosis,Medication,149,73
+84,2025-09-12,Seizure Disorder,Medication,247,47
+85,2024-02-28,Interstitial Cystitis,Medication,308,88
+86,2026-03-19,Anal Fissure,Medication,410,74
+87,2025-08-30,Overactive Bladder,Medication,505,4
+88,2025-09-11,Scleroderma,Medication,427,5
+89,2024-01-31,Thrombocytopenia,Surgery,340,51
+90,2023-05-24,Cirrhosis,Medication,178,23
+91,2026-03-23,Iron Deficiency Anemia,Medication,343,51
+92,2023-06-22,Autism Spectrum Disorder,Medication,527,6
+93,2024-11-02,Urge Incontinence,Medication,475,4
+94,2026-01-06,Rheumatoid Arthritis,Therapy,563,105
+95,2025-03-28,Peripheral Artery Disease,Medication,538,20
+96,2024-10-04,Sjögren's Syndrome,Medication,97,41
+97,2025-01-07,Endometriosis,Medication,231,127
+98,2025-08-20,Glaucoma,Medication,334,19
+99,2025-10-24,Migraine,Medication,351,122
+100,2024-01-19,Substance Use Disorder,Medication,336,6
+101,2024-04-22,Tuberculosis,Medication,95,50
+102,2023-11-24,Overactive Bladder,Medication,388,4
+103,2024-08-17,Allergic Rhinitis,Medication,59,46
+104,2024-08-20,Anal Fissure,Medication,226,92
+105,2023-12-30,Rosacea,Medication,403,21
+106,2024-09-17,Stress Incontinence,Therapy,132,4
+107,2024-06-20,Sickle Cell Disease,Medication,442,9
+108,2023-07-31,Vitamin D Deficiency,Medication,267,114
+109,2023-08-05,Appendicitis,Surgery,566,98
+110,2025-12-01,Prostate Cancer,Medication,295,89
+111,2025-04-13,Peripheral Artery Disease,Medication,117,40
+112,2025-12-07,Gastritis,Therapy,314,99
+113,2024-02-10,Migraine,Medication,39,85
+114,2024-06-28,Cholecystitis,Medication,275,48
+115,2025-01-23,Ulcerative Colitis,Medication,36,99
+116,2025-06-28,Asthma,Medication,474,100
+117,2023-06-23,Macular Degeneration,Medication,205,57
+118,2023-04-16,Ovarian Cancer,Medication,343,79
+119,2023-07-11,Atrial Fibrillation,Medication,303,81
+120,2025-12-23,Barrett's Esophagus,Medication,577,92
+121,2024-01-30,Hemorrhoids,Medication,325,99
+122,2023-11-12,Migraine,Medication,200,47
+123,2025-09-14,Squamous Cell Carcinoma,Medication,75,84
+124,2023-07-31,Narcolepsy,Medication,427,85
+125,2024-04-05,Uterine Fibroids,Medication,493,62
+126,2026-03-08,Essential Hypertension,Surgery,320,38
+127,2025-11-21,Croup,Medication,217,87
+128,2024-06-29,Appendicitis,Surgery,296,98
+129,2023-06-10,Type 1 Diabetes,Medication,125,72
+130,2026-03-30,Autism Spectrum Disorder,Medication,468,68
+131,2023-04-14,Hyperthyroidism,Medication,557,33
+132,2025-02-23,Hemophilia,Medication,440,115
+133,2025-06-12,Pulmonary Embolism,Medication,272,120
+134,2025-02-17,Alzheimer's Disease,Medication,328,47
+135,2024-07-19,Pneumothorax,Medication,547,50
+136,2024-05-16,Type 1 Diabetes,Medication,280,33
+137,2025-11-11,Preeclampsia,Medication,93,15
+138,2025-12-10,Pericarditis,Medication,154,90
+139,2026-01-05,Atrial Fibrillation,Medication,131,83
+140,2024-07-19,Preeclampsia,Medication,90,1
+141,2024-09-11,Leukopenia,Surgery,56,30
+142,2024-11-05,Peptic Ulcer Disease,Medication,354,99
+143,2025-05-17,Cirrhosis,Medication,222,23
+144,2025-12-13,Interstitial Cystitis,Medication,332,4
+145,2026-03-04,Hearing Loss,Medication,158,22
+146,2023-06-15,Esophagitis,Medication,475,23
+147,2024-12-16,Vitamin D Deficiency,Medication,74,117
+148,2025-03-24,Rheumatoid Arthritis,Therapy,501,113
+149,2024-08-17,Acute Kidney Injury,Surgery,318,37
+150,2024-11-22,Glomerulonephritis,Therapy,569,3
+151,2024-01-07,Hypothyroidism,Medication,61,60
+152,2025-12-23,Polycystic Kidney Disease,Medication,502,55
+153,2025-02-25,Bipolar Disorder,Medication,525,64
+154,2026-01-24,Thrombocytopenia,Surgery,95,9
+155,2024-11-23,Thyroid Cancer,Medication,20,60
+156,2023-09-29,Pneumonia,Medication,422,120
+157,2024-07-19,Acne Vulgaris,Medication,528,84
+158,2024-12-13,Ulcerative Colitis,Medication,271,23
+159,2025-08-02,Sepsis,Medication,423,121
+160,2024-04-15,Glaucoma,Medication,177,119
+161,2025-03-31,Sepsis,Medication,511,76
+162,2024-03-29,Lung Cancer,Medication,40,75
+163,2023-07-12,Glaucoma,Medication,120,54
+164,2025-11-22,Basal Cell Carcinoma,Medication,25,84
+165,2025-05-18,Fibromyalgia,Medication,398,105
+166,2023-08-25,Multiple Sclerosis,Medication,350,12
+167,2024-06-15,Type 1 Diabetes,Medication,235,33
+168,2025-12-07,Gastroesophageal Reflux Disease,Therapy,136,99
+169,2026-02-10,Leukopenia,Surgery,141,30
+170,2024-03-18,Type 1 Diabetes,Medication,492,33
+171,2025-04-16,Atrial Fibrillation,Medication,8,81
+172,2026-03-04,Fibromyalgia,Medication,322,105
+173,2023-06-13,Cirrhosis,Medication,414,92
+174,2023-12-02,Hemophilia,Medication,374,34
+175,2024-11-14,Irritable Bowel Syndrome,Medication,382,23
+176,2025-08-03,Obesity,Medication,500,72
+177,2023-10-26,Seizure Disorder,Medication,397,122
+178,2024-01-22,Congestive Heart Failure,Medication,246,38
+179,2023-08-07,Laryngitis,Medication,86,53
+180,2025-08-01,Schizophrenia,Surgery,38,64
+181,2025-11-29,Stress Incontinence,Therapy,361,4
+182,2025-10-08,Gastritis,Therapy,271,92
+183,2023-04-29,Endometriosis,Medication,37,127
+184,2025-10-01,Migraine,Medication,185,85
+185,2024-01-10,Deep Vein Thrombosis,Medication,34,42
+186,2025-10-09,Pyelonephritis,Therapy,14,55
+187,2026-01-29,Hearing Loss,Medication,50,53
+188,2024-06-26,Hearing Loss,Medication,415,25
+189,2025-09-27,Hyperlipidemia,Medication,361,11
+190,2023-06-17,Hemorrhoids,Medication,92,92
+191,2026-02-21,Myocardial Infarction,Medication,206,83
+192,2023-08-28,Gout,Medication,440,113
+193,2024-09-30,Otitis Media,Medication,391,22
+194,2024-11-06,Crohn's Disease,Medication,182,116
+195,2026-03-20,Multiple Sclerosis,Medication,481,12
+196,2023-12-19,Bipolar Disorder,Medication,582,126
+197,2025-08-22,Alzheimer's Disease,Medication,173,12
+198,2024-01-09,Leukopenia,Surgery,328,30
+199,2024-07-24,Hemorrhoids,Medication,494,74
+200,2025-04-04,Pericarditis,Medication,348,90
+201,2026-02-10,Influenza,Medication,216,110
+202,2024-10-29,Sepsis,Medication,53,108
+203,2023-10-31,Leukopenia,Surgery,311,51
+204,2024-06-19,Hiatal Hernia,Surgery,580,116
+205,2024-05-16,Obesity,Medication,198,72
+206,2025-02-07,Lymphoma,Medication,462,89
+207,2025-08-15,Prostate Cancer,Medication,552,75
+208,2024-08-05,Alzheimer's Disease,Medication,547,85
+209,2026-04-05,Cystic Fibrosis,Medication,467,100
+210,2024-02-17,Anemia,Medication,256,115
+211,2025-03-23,Endometriosis,Medication,197,62
+212,2023-04-23,Colon Cancer,Medication,441,75
+213,2025-12-23,Pernicious Anemia,Medication,76,51
+214,2023-06-05,Aortic Aneurysm,Medication,352,40
+215,2025-09-17,Cardiomyopathy,Medication,456,81
+216,2024-04-27,Acne Vulgaris,Medication,533,21
+217,2025-03-13,Sarcoidosis,Medication,549,50
+218,2025-10-13,Rheumatoid Arthritis,Therapy,563,97
+219,2024-09-01,Pneumothorax,Medication,521,50
+220,2023-08-13,Cirrhosis,Medication,246,23
+221,2024-07-31,Sickle Cell Disease,Medication,261,115
+222,2023-09-27,Allergic Rhinitis,Medication,558,95
+223,2025-07-19,Aortic Aneurysm,Medication,549,40
+224,2025-03-24,Prostate Cancer,Medication,542,102
+225,2025-07-20,Chronic Kidney Disease,Surgery,359,67
+226,2023-06-04,Acute Kidney Injury,Surgery,96,91
+227,2023-12-24,Chronic Sinusitis,Surgery,116,53
+228,2025-12-31,Attention Deficit Hyperactivity Disorder,Medication,362,126
+229,2023-09-30,Pernicious Anemia,Medication,278,9
+230,2023-05-07,Bipolar Disorder,Medication,333,6
+231,2025-02-12,Chronic Kidney Disease,Surgery,307,55
+232,2026-03-11,Pernicious Anemia,Medication,359,51
+233,2025-11-15,Celiac Disease,Medication,119,92
+234,2025-02-19,Nephrotic Syndrome,Medication,180,67
+235,2023-12-06,Hyperthyroidism,Medication,189,114
+236,2026-02-03,Bronchiolitis,Medication,23,87
+237,2023-09-11,Barrett's Esophagus,Medication,422,116
+238,2026-01-07,Brain Tumor,Surgery,114,47
+239,2025-08-26,Cystic Fibrosis,Medication,120,35
+240,2025-02-12,Basal Cell Carcinoma,Medication,355,63
+241,2024-05-05,Leukopenia,Surgery,301,30
+242,2023-09-28,Anemia,Medication,120,30
+243,2026-04-05,Peripheral Artery Disease,Medication,412,20
+244,2023-11-15,Anxiety Disorder,Medication,553,68
+245,2026-03-24,Sleep Apnea,Medication,31,120
+246,2025-06-11,Hyperlipidemia,Medication,397,11
+247,2024-04-28,Irritable Bowel Syndrome,Medication,460,99
+248,2024-12-01,Hyperthyroidism,Medication,551,117
+249,2025-03-22,Sickle Cell Disease,Medication,209,30
+250,2025-10-17,Acute Bronchitis,Medication,296,120
+251,2023-09-29,Hypothyroidism,Medication,356,60
+252,2023-11-25,Esophagitis,Medication,501,116
+253,2025-08-14,Thyroid Cancer,Medication,283,114
+254,2023-11-10,Pleural Effusion,Surgery,268,50
+255,2024-10-24,Coronary Artery Disease,Medication,302,90
+256,2024-08-27,Anxiety Disorder,Medication,563,64
+257,2023-11-09,Cardiomyopathy,Medication,530,38
+258,2024-11-25,Interstitial Lung Disease,Medication,389,50
+259,2025-11-21,Bipolar Disorder,Medication,487,6
+260,2024-04-05,Cystic Fibrosis,Medication,373,120
+261,2023-06-20,Polycystic Ovary Syndrome,Medication,405,93
+262,2025-05-20,Tuberculosis,Medication,390,35
+263,2025-05-09,Interstitial Lung Disease,Medication,118,100
+264,2023-10-01,Cataracts,Medication,249,123
+265,2023-07-17,Epilepsy,Medication,34,12
+266,2025-03-01,Laryngitis,Medication,56,22
+267,2023-06-14,Chronic Pain Syndrome,Surgery,283,26
+268,2025-01-17,Angina Pectoris,Medication,575,83
+269,2023-12-06,Tonsillitis,Medication,151,22
+270,2025-05-11,Peripheral Neuropathy,Medication,446,47
+271,2024-10-30,Interstitial Cystitis,Medication,421,88
+272,2026-03-15,Valvular Heart Disease,Medication,540,11
+273,2024-02-26,Ulcerative Colitis,Medication,380,92
+274,2024-12-17,Croup,Medication,239,87
+275,2024-06-24,Otitis Media,Medication,173,25
+276,2024-03-27,Acute Kidney Injury,Surgery,247,55
+277,2024-09-03,Acute Kidney Injury,Surgery,132,67
+278,2024-03-23,Meniere's Disease,Medication,305,53
+279,2026-04-06,Alzheimer's Disease,Medication,556,122
+280,2023-05-20,Prostate Cancer,Medication,129,102
+281,2025-12-04,Asthma,Medication,432,50
+282,2023-05-04,Pneumothorax,Medication,471,50
+283,2023-05-04,Diabetic Retinopathy,Medication,310,119
+284,2025-01-02,Osteoarthritis,Therapy,554,70
+285,2025-10-29,Emphysema,Medication,313,120
+286,2023-07-04,Gout,Medication,340,97
+287,2023-12-28,Crohn's Disease,Medication,456,92
+288,2024-06-14,Irritable Bowel Syndrome,Medication,17,116
+289,2023-11-07,Sarcoidosis,Medication,226,100
+290,2024-11-05,Otitis Media,Medication,500,53
+291,2026-02-16,Restless Leg Syndrome,Medication,18,85
+292,2024-06-19,Kidney Cancer,Medication,560,75
+293,2025-02-18,Pyelonephritis,Therapy,533,37
+294,2024-05-31,Chronic Liver Disease,Surgery,579,92
+295,2024-05-05,Endocarditis,Medication,346,38
+296,2026-01-25,Basal Cell Carcinoma,Medication,493,21
+297,2025-10-12,Prostate Cancer,Medication,548,75
+298,2024-06-30,Kidney Cancer,Medication,231,71
+299,2023-11-21,Pneumothorax,Medication,406,100
+300,2026-02-21,Sleep Apnea,Medication,242,35
+301,2024-08-31,Thyroid Cancer,Medication,222,33
+302,2024-03-23,Bladder Cancer,Medication,355,88
+303,2025-03-17,Emphysema,Medication,501,100
+304,2025-01-19,Urge Incontinence,Medication,291,88
+305,2023-08-22,Hyperthyroidism,Medication,303,33
+306,2025-08-15,Polycystic Ovary Syndrome,Medication,554,73
+307,2025-08-16,Brain Tumor,Surgery,573,47
+308,2024-04-20,Cirrhosis,Medication,213,99
+309,2023-07-09,Otitis Media,Medication,165,53
+310,2023-12-16,Scleroderma,Medication,277,5
+311,2023-11-14,Endometrial Cancer,Medication,367,89
+312,2023-07-02,Squamous Cell Carcinoma,Medication,79,63
+313,2025-03-15,Stroke,Therapy,320,85
+314,2024-07-22,Thyroid Cancer,Medication,411,72
+315,2024-09-04,Migraine,Medication,165,85
+316,2025-11-24,Autism Spectrum Disorder,Medication,300,126
+317,2023-05-13,Attention Deficit Hyperactivity Disorder,Medication,393,6
+318,2024-10-24,Migraine,Medication,539,47
+319,2025-03-14,Pulmonary Embolism,Medication,166,120
+320,2025-06-16,Parkinson's Disease,Medication,575,122
+321,2023-05-09,Attention Deficit Hyperactivity Disorder,Medication,538,64
+322,2024-03-16,Otitis Media,Medication,435,53
+323,2026-03-11,Endometrial Cancer,Medication,551,79
+324,2024-11-13,Crohn's Disease,Medication,442,23
+325,2024-01-28,Esophagitis,Medication,241,92
+326,2025-03-07,Diabetic Retinopathy,Medication,536,103
+327,2023-04-13,Congestive Heart Failure,Medication,27,38
+328,2025-01-22,Endocarditis,Medication,74,83
+329,2023-06-12,COVID-19,Medication,381,106
+330,2023-08-05,Erectile Dysfunction,Medication,257,88
+331,2023-10-02,Nephrotic Syndrome,Medication,546,37
+332,2023-12-14,Pneumothorax,Medication,343,100
+333,2023-08-01,Diabetic Retinopathy,Medication,432,57
+334,2023-07-15,Lymphoma,Medication,379,79
+335,2024-05-07,Chronic Sinusitis,Surgery,396,53
+336,2025-03-13,Asthma,Medication,398,35
+337,2024-04-23,Irritable Bowel Syndrome,Medication,223,23
+338,2025-09-08,Cataracts,Medication,125,57
+339,2025-10-10,Diabetic Retinopathy,Medication,17,109
+340,2024-11-16,Narcolepsy,Medication,107,47
+341,2025-10-23,Attention Deficit Hyperactivity Disorder,Medication,20,68
+342,2025-10-25,Hypertensive Heart Disease,Medication,14,81
+343,2024-02-19,Pulmonary Embolism,Medication,156,100
+344,2025-10-17,Celiac Disease,Medication,104,23
+345,2024-06-10,Barrett's Esophagus,Medication,229,74
+346,2026-02-15,Alzheimer's Disease,Medication,198,85
+347,2024-12-21,Pulmonary Hypertension,Surgery,241,35
+348,2023-09-27,Acne Vulgaris,Medication,356,21
+349,2025-09-04,Interstitial Lung Disease,Medication,176,35
+350,2025-04-23,Pneumothorax,Medication,227,35
+351,2024-10-14,Breast Cancer,Medication,272,71
+352,2026-02-03,Interstitial Cystitis,Medication,186,4
+353,2025-10-01,Urge Incontinence,Medication,423,88
+354,2024-02-20,Cystic Fibrosis,Medication,524,50
+355,2024-11-02,Melanoma,Medication,446,89
+356,2025-09-05,COVID-19,Medication,420,16
+357,2024-11-08,Pharyngitis,Medication,291,53
+358,2025-12-03,Erectile Dysfunction,Medication,284,88
+359,2025-11-01,Psoriasis,Medication,495,21
+360,2023-12-10,Kidney Stones,Medication,576,4
+361,2024-10-15,Psoriasis,Medication,542,84
+362,2024-09-04,Interstitial Lung Disease,Medication,7,50
+363,2024-02-20,Diabetic Retinopathy,Medication,1,103
+364,2023-05-23,Substance Use Disorder,Medication,561,68
+365,2025-09-02,Gastroesophageal Reflux Disease,Therapy,557,116
+366,2025-08-08,Type 2 Diabetes,Medication,284,73
+367,2025-06-19,Urge Incontinence,Medication,45,88
+368,2025-06-16,Osteoporosis,Medication,326,114
+369,2023-05-04,Benign Prostatic Hyperplasia,Medication,294,4
+370,2024-04-17,Chronic Obstructive Pulmonary Disease,Surgery,206,120
+371,2023-08-25,Polycystic Ovary Syndrome,Medication,147,117
+372,2024-11-17,Otitis Media,Medication,416,53
+373,2025-01-16,Croup,Medication,69,87
+374,2026-02-06,Restless Leg Syndrome,Medication,442,122
+375,2024-11-16,Iron Deficiency Anemia,Medication,108,115
+376,2025-06-21,Bladder Cancer,Medication,480,88
+377,2024-06-09,Hemophilia,Medication,351,27
+378,2024-02-27,Anemia,Medication,12,30
+379,2026-02-08,Celiac Disease,Medication,27,116
+380,2025-08-30,Pneumonia,Medication,413,35
+381,2023-05-07,Hypothyroidism,Medication,63,2
+382,2025-05-25,Fibromyalgia,Medication,78,97
+383,2025-08-06,Psoriasis,Medication,535,21
+384,2023-08-18,Sleep Apnea,Medication,492,50
+385,2024-02-15,Multiple Sclerosis,Medication,537,12
+386,2024-09-03,Pernicious Anemia,Medication,332,9
+387,2025-12-09,Hemorrhoids,Medication,317,74
+388,2026-03-20,Cholecystitis,Medication,308,58
+389,2025-11-07,Interstitial Cystitis,Medication,56,4
+390,2023-06-14,Scleroderma,Medication,14,5
+391,2025-08-29,Aortic Aneurysm,Medication,139,40
+392,2024-04-25,Bladder Cancer,Medication,499,4
+393,2024-01-01,Congestive Heart Failure,Medication,240,69
+394,2024-12-21,COVID-19,Medication,425,32
+395,2024-06-22,Barrett's Esophagus,Medication,406,23
+396,2024-10-06,Bladder Cancer,Medication,406,88
+397,2024-02-29,Cardiomyopathy,Medication,340,69
+398,2026-01-09,Asthma,Medication,539,35
+399,2026-02-15,Polycystic Ovary Syndrome,Medication,327,117
+400,2024-06-14,Polycystic Kidney Disease,Medication,156,67
+401,2024-07-29,Valvular Heart Disease,Medication,224,69
+402,2023-11-06,Pernicious Anemia,Medication,508,30
+403,2026-03-23,Congenital Heart Disease,Medication,7,83
+404,2024-03-21,Kidney Stones,Medication,452,88
+405,2025-09-29,Narcolepsy,Medication,165,122
+406,2024-04-01,Pharyngitis,Medication,375,53
+407,2024-11-13,Pernicious Anemia,Medication,81,30
+408,2025-05-25,Vitamin D Deficiency,Medication,525,73
+409,2024-04-30,Laryngitis,Medication,27,53
+410,2024-02-28,Macular Degeneration,Medication,279,103
+411,2025-09-15,Macular Degeneration,Medication,563,109
+412,2026-02-17,Irritable Bowel Syndrome,Medication,583,116
+413,2024-08-23,Peripheral Artery Disease,Medication,536,20
+414,2025-03-27,Coronary Artery Disease,Medication,184,38
+415,2024-12-11,Preeclampsia,Medication,505,15
+416,2024-02-26,Tonsillitis,Medication,414,22
+417,2023-09-05,Breast Cancer,Medication,358,94
+418,2025-12-02,Hyperthyroidism,Medication,171,117
+419,2023-11-24,Gout,Medication,422,125
+420,2025-04-23,Peripheral Artery Disease,Medication,453,20
+421,2023-05-25,Ovarian Cancer,Medication,30,102
+422,2026-01-21,Congestive Heart Failure,Medication,134,83
+423,2025-11-15,Celiac Disease,Medication,174,74
+424,2024-06-28,Tonsillitis,Medication,554,53
+425,2023-08-01,Thrombocytopenia,Surgery,177,115
+426,2024-02-27,Coronary Artery Disease,Medication,224,11
+427,2025-10-04,Multiple Sclerosis,Medication,92,85
+428,2023-07-23,Ovarian Cancer,Medication,440,94
+429,2025-09-25,Rheumatoid Arthritis,Therapy,42,97
+430,2025-08-11,Endometriosis,Medication,71,78
+431,2023-06-15,Meniere's Disease,Medication,544,53
+432,2024-07-02,Hemophilia,Medication,507,9
+433,2025-08-22,Glomerulonephritis,Therapy,321,91
+434,2025-02-14,Benign Prostatic Hyperplasia,Medication,22,4
+435,2024-01-18,Alzheimer's Disease,Medication,167,12
+436,2025-10-31,Post-Traumatic Stress Disorder,Medication,303,126
+437,2023-07-07,Glomerulonephritis,Therapy,243,3
+438,2026-01-30,Otitis Media,Medication,93,25
+439,2025-05-28,Asthma,Medication,126,50
+440,2024-10-10,Sarcoidosis,Medication,120,35
+441,2024-03-22,Acute Kidney Injury,Surgery,479,55
+442,2024-06-17,Sleep Apnea,Medication,430,35
+443,2024-02-04,Sickle Cell Disease,Medication,246,9
+444,2023-05-19,Leukopenia,Surgery,497,34
+445,2024-09-11,Emphysema,Medication,225,35
+446,2024-07-23,Peripheral Neuropathy,Medication,454,122
+447,2024-04-05,Interstitial Lung Disease,Medication,210,50
+448,2024-01-14,Sarcoidosis,Medication,371,120
+449,2026-01-20,Eczema,Medication,478,63
+450,2024-03-02,Pancreatic Cancer,Medication,107,71
+451,2024-08-05,Bladder Cancer,Medication,519,4
+452,2026-01-22,Eczema,Medication,372,21
+453,2024-06-29,Sepsis,Medication,401,124
+454,2025-01-20,Hemorrhoids,Medication,93,74
+455,2024-11-05,Lymphoma,Medication,2,75
+456,2024-06-09,Parkinson's Disease,Medication,552,47
+457,2023-11-23,Pulmonary Hypertension,Surgery,97,120
+458,2024-03-27,Anemia,Medication,37,27
+459,2024-09-28,Pancreatitis,Medication,341,92
+460,2025-11-22,Narcolepsy,Medication,484,122
+461,2024-09-09,Celiac Disease,Medication,535,99
+462,2025-09-24,Fibromyalgia,Medication,327,97
+463,2024-12-30,Asthma,Medication,530,120
+464,2024-02-13,Post-Traumatic Stress Disorder,Medication,411,6
+465,2025-11-21,Rheumatoid Arthritis,Therapy,481,5
+466,2023-09-27,Hepatitis C,Medication,152,74
+467,2023-11-07,Ovarian Cancer,Medication,285,89
+468,2023-11-24,Hypothyroidism,Medication,527,114
+469,2025-09-01,Kidney Cancer,Medication,383,94
+470,2025-09-05,Thrombocytopenia,Surgery,581,115
+471,2026-01-08,Allergic Rhinitis,Medication,247,95
+472,2025-12-18,Peripheral Artery Disease,Medication,566,40
+473,2024-11-07,Interstitial Cystitis,Medication,20,88
+474,2026-02-10,Bladder Cancer,Medication,199,88
+475,2025-01-13,COVID-19,Medication,512,16
+476,2026-02-21,Endometrial Cancer,Medication,501,75
+477,2023-07-16,Uterine Fibroids,Medication,12,13
+478,2025-12-11,Pancreatitis,Medication,243,92
+479,2025-10-07,Alzheimer's Disease,Medication,34,12
+480,2024-10-30,Pneumothorax,Medication,367,50
+481,2023-08-31,Appendicitis,Surgery,278,48
+482,2024-12-01,Pyelonephritis,Therapy,130,37
+483,2026-01-03,Schizophrenia,Surgery,427,6
+484,2026-02-19,Fecal Incontinence,Medication,454,99
+485,2024-10-29,Depression,Surgery,262,68
+486,2026-01-26,Stroke,Therapy,293,12
+487,2024-03-05,Seizure Disorder,Medication,269,122
+488,2025-06-05,Glaucoma,Medication,375,57
+489,2025-05-08,Hearing Loss,Medication,401,22
+490,2024-01-12,Allergic Rhinitis,Medication,261,46
+491,2024-10-28,Stress Incontinence,Therapy,350,4
+492,2025-03-31,Anxiety Disorder,Medication,72,64
+493,2023-07-04,Acute Sinusitis,Medication,281,53
+494,2023-11-02,Multiple Sclerosis,Medication,485,122
+495,2025-11-19,Post-Traumatic Stress Disorder,Medication,433,6
+496,2025-05-10,Hemophilia,Medication,177,30
+497,2025-08-19,Endometriosis,Medication,348,112
+498,2024-11-25,Sickle Cell Disease,Medication,344,34
+499,2026-01-03,Chronic Sinusitis,Surgery,128,53
+500,2024-07-25,Alzheimer's Disease,Medication,581,47
+501,2023-07-29,Ulcerative Colitis,Medication,258,23
+502,2025-01-27,Eczema,Medication,268,21
+503,2024-01-01,Benign Prostatic Hyperplasia,Medication,24,4
+504,2024-07-21,Valvular Heart Disease,Medication,192,11
+505,2024-01-25,Lymphoma,Medication,10,102
+506,2024-03-14,Anal Fissure,Medication,140,99
+507,2023-04-20,Pulmonary Hypertension,Surgery,413,35
+508,2026-01-24,Cystic Fibrosis,Medication,296,120
+509,2024-11-03,Nephrotic Syndrome,Medication,407,67
+510,2025-08-03,Thrombocytopenia,Surgery,308,34
+511,2024-01-09,Cholecystitis,Medication,286,7
+512,2023-08-11,Celiac Disease,Medication,397,74
+513,2025-03-28,Attention Deficit Hyperactivity Disorder,Medication,157,64
+514,2025-03-20,Sjögren's Syndrome,Medication,501,5
+515,2025-08-31,Gastroesophageal Reflux Disease,Therapy,103,74
+516,2023-10-13,Crohn's Disease,Medication,525,116
+517,2023-12-19,Post-Traumatic Stress Disorder,Medication,372,126
+518,2026-01-07,Laryngitis,Medication,579,53
+519,2024-04-22,Osteoarthritis,Therapy,304,70
+520,2024-10-08,Cataracts,Medication,123,103
+521,2025-12-05,Cholecystitis,Medication,306,7
+522,2025-01-26,Fibromyalgia,Medication,257,113
+523,2025-10-26,Iron Deficiency Anemia,Medication,61,30
+524,2024-06-26,Basal Cell Carcinoma,Medication,33,84
+525,2024-01-17,Esophagitis,Medication,260,74
+526,2023-07-05,Coronary Artery Disease,Medication,152,90
+527,2024-02-05,Sjögren's Syndrome,Medication,67,125
+528,2025-05-27,Brain Tumor,Surgery,441,47
+529,2024-07-30,Bladder Cancer,Medication,444,4
+530,2025-02-11,Otitis Externa,Surgery,432,25
+531,2025-08-13,Gestational Diabetes,Medication,382,1
+532,2023-09-02,Migraine,Medication,410,47
+533,2024-04-21,Pharyngitis,Medication,260,25
+534,2023-09-16,Depression,Surgery,528,64
+535,2025-06-10,Anemia,Medication,561,30
+536,2023-06-03,Bronchiolitis,Medication,136,43
+537,2025-10-02,Iron Deficiency Anemia,Medication,448,34
+538,2024-10-24,Acute Bronchitis,Medication,435,120
+539,2026-04-01,Bipolar Disorder,Medication,570,6
+540,2024-04-23,Coronary Artery Disease,Medication,299,69
+541,2024-10-30,Colon Cancer,Medication,107,79
+542,2024-05-11,Angina Pectoris,Medication,6,81
+543,2024-09-17,Stroke,Therapy,349,122
+544,2024-07-11,Lymphoma,Medication,176,89
+545,2024-02-25,Iron Deficiency Anemia,Medication,95,30
+546,2025-12-05,Congestive Heart Failure,Medication,545,38
+547,2025-12-09,Influenza,Medication,378,111
+548,2024-04-02,Hemorrhoids,Medication,57,74
+549,2024-04-28,Sepsis,Medication,323,18
+550,2023-06-05,Nephrotic Syndrome,Medication,423,67
+551,2024-02-27,Epilepsy,Medication,32,122
+552,2026-01-10,Benign Prostatic Hyperplasia,Medication,127,4
+553,2025-05-03,Tonsillitis,Medication,323,25
+554,2023-04-26,Pyelonephritis,Therapy,57,37
+555,2026-02-22,Pericarditis,Medication,131,38
+556,2023-08-27,Narcolepsy,Medication,52,122
+557,2023-09-15,Congenital Heart Disease,Medication,498,69
+558,2024-05-22,Sarcoidosis,Medication,126,50
+559,2023-06-03,Parkinson's Disease,Medication,577,12
+560,2023-07-18,Kidney Stones,Medication,293,88
+561,2025-09-23,Cardiomyopathy,Medication,475,11
+562,2025-09-05,Substance Use Disorder,Medication,142,126
+563,2023-06-14,Attention Deficit Hyperactivity Disorder,Medication,2,64
+564,2023-06-11,COVID-19,Medication,572,32
+565,2025-01-17,Congestive Heart Failure,Medication,212,81
+566,2024-09-13,Thyroid Cancer,Medication,438,72
+567,2025-01-06,Stress Incontinence,Therapy,388,4
+568,2024-05-01,Stroke,Therapy,143,12
+569,2025-01-16,Hemorrhoids,Medication,363,99
+570,2025-12-18,Fecal Incontinence,Medication,572,23
+571,2025-12-27,Anemia,Medication,562,115
+572,2024-10-31,Stress Incontinence,Therapy,12,88
+573,2024-10-28,Gastroesophageal Reflux Disease,Therapy,157,116
+574,2023-07-14,Ovarian Cancer,Medication,77,79
+575,2024-12-10,Uterine Fibroids,Medication,245,62
+576,2026-02-21,Appendicitis,Surgery,17,24
+577,2024-12-08,Endometrial Cancer,Medication,412,75
+578,2023-12-31,Hemophilia,Medication,401,9
+579,2025-05-08,Gastroesophageal Reflux Disease,Therapy,112,116
+580,2023-11-16,Sjögren's Syndrome,Medication,545,105
+581,2025-10-08,Croup,Medication,145,87
+582,2025-12-24,Appendicitis,Surgery,401,7
+583,2025-08-28,Kidney Cancer,Medication,79,75
+584,2023-07-10,Appendicitis,Surgery,477,58
+585,2023-08-05,Overactive Bladder,Medication,80,4
+586,2025-08-02,Influenza,Medication,32,29
+587,2025-11-09,Glaucoma,Medication,75,54
+588,2024-11-13,Interstitial Cystitis,Medication,423,4
+589,2026-01-15,Type 2 Diabetes,Medication,505,33
+590,2026-01-22,Stroke,Therapy,467,85
+591,2023-08-12,Pericarditis,Medication,84,38
+592,2023-05-20,Pleural Effusion,Surgery,177,35
+593,2023-09-29,Hearing Loss,Medication,538,22
+594,2025-08-12,Urge Incontinence,Medication,421,4
+595,2024-09-05,Celiac Disease,Medication,316,116
+596,2024-02-03,Iron Deficiency Anemia,Medication,241,51
+597,2024-09-02,Preeclampsia,Medication,542,86
+598,2025-04-09,Lung Cancer,Medication,487,89
+599,2024-09-04,Congestive Heart Failure,Medication,305,90
+600,2025-06-25,Celiac Disease,Medication,455,92
+601,2023-05-19,Brain Tumor,Surgery,89,47
+602,2024-03-26,Celiac Disease,Medication,189,99
+603,2025-01-31,Hypertensive Heart Disease,Medication,501,90
+604,2024-12-03,Schizophrenia,Surgery,32,126
+605,2023-07-13,Diabetic Retinopathy,Medication,323,109
+606,2024-09-04,Pulmonary Hypertension,Surgery,160,100
+607,2023-06-07,Cardiomyopathy,Medication,58,81
+608,2023-12-01,Type 1 Diabetes,Medication,255,60
+609,2024-09-11,Pancreatitis,Medication,399,116
+610,2023-05-28,Parkinson's Disease,Medication,239,122
+611,2024-11-24,Narcolepsy,Medication,128,85
+612,2023-08-12,Sleep Apnea,Medication,479,100
+613,2024-06-23,Osteoarthritis,Therapy,566,14
+614,2026-01-29,Prostate Cancer,Medication,455,71
+615,2024-06-02,Gout,Medication,384,97
+616,2024-05-04,HIV/AIDS,Medication,59,106
+617,2025-08-23,Vitamin D Deficiency,Medication,231,60
+618,2025-11-09,Nephrotic Syndrome,Medication,118,3
+619,2025-08-17,Urge Incontinence,Medication,324,88
+620,2025-07-07,Endometriosis,Medication,400,77
+621,2026-01-17,Diverticulitis,Medication,245,23
+622,2025-09-21,Pharyngitis,Medication,237,25
+623,2024-11-08,Sarcoidosis,Medication,53,35
+624,2025-11-15,Psoriasis,Medication,586,21
+625,2025-02-13,Irritable Bowel Syndrome,Medication,88,99
+626,2025-08-17,Peripheral Neuropathy,Medication,114,47
+627,2023-05-24,Restless Leg Syndrome,Medication,375,47
+628,2026-03-05,Depression,Surgery,422,64
+629,2023-12-24,Essential Hypertension,Surgery,584,81
+630,2024-09-28,Endometrial Cancer,Medication,554,75
+631,2023-05-24,Tonsillitis,Medication,458,25
+632,2024-12-04,Essential Hypertension,Surgery,213,38
+633,2024-05-09,Sarcoidosis,Medication,170,35
+634,2024-10-03,Atrial Fibrillation,Medication,383,38
+635,2024-04-25,Hyperthyroidism,Medication,537,60
+636,2024-07-19,Nephrotic Syndrome,Medication,506,37
+637,2025-05-21,Gastroesophageal Reflux Disease,Therapy,138,23
+638,2025-10-05,Chronic Sinusitis,Surgery,402,22
+639,2025-10-06,Cystic Fibrosis,Medication,221,100
+640,2026-02-12,Bronchiolitis,Medication,544,43
+641,2024-09-22,Polycystic Ovary Syndrome,Medication,117,72
+642,2025-03-13,Sickle Cell Disease,Medication,316,27
+643,2024-02-16,Substance Use Disorder,Medication,176,68
+644,2023-06-02,Pulmonary Hypertension,Surgery,462,35
+645,2024-02-08,Stress Incontinence,Therapy,514,4
+646,2026-01-26,Sickle Cell Disease,Medication,216,9
+647,2023-04-08,Otitis Media,Medication,427,53
+648,2025-04-08,Hemophilia,Medication,47,30

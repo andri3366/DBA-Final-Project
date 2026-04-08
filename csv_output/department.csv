@@ -1,0 +1,31 @@
+DepartmentID,DepartmentName,Ward,PhoneExtension
+1,Oncology,South,1572
+2,Pediatrics,South,1477
+3,Infusion Center,East,8205
+4,Operating Room,West,0403
+5,Endoscopy Suite,East,8941
+6,Physical Therapy,South,1802
+7,Burn Unit,North,6391
+8,Cardiac Care Unit (CCU),North,1484
+9,Rehabilitation Unit,South,2459
+10,Post-Anesthesia Care Unit (PACU),West,1413
+11,Respiratory Therapy,South,6518
+12,Radiology,East,3315
+13,Intensive Care Unit (ICU),North,7706
+14,Laboratory,East,1113
+15,Outpatient Clinic,West,4506
+16,Dialysis Unit,South,4150
+17,Occupational Therapy,North,1083
+18,Neurology Unit,South,9842
+19,Sleep Lab,East,8883
+20,Wound Care Center,West,6058
+21,Maternity Ward,South,7423
+22,Pharmacy,East,5265
+23,Medical Observation Unit,West,0747
+24,Inpatient Ward,North,8321
+25,Neonatal Intensive Care Unit (NICU),North,0325
+26,Emergency Department,North,4142
+27,Cardiology Unit,West,0673
+28,Labor and Delivery,North,8181
+29,Psychiatric Ward,South,3246
+30,Surgery,West,6511

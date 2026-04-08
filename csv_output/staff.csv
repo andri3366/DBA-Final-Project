@@ -1,0 +1,170 @@
+StaffID,FirstName,LastName,Role,PhoneNumber,Email,ShiftHours,DepartmentID
+1,Maria,Cole,Receptionist,001-825-810-1659x291,nicholas@gmail.com,516 Joseph Villages,Day,20
+2,Lawrence,Moore,Receptionist,+1-853-388-9860,jason@gmail.com,565 Morales Cape Suite 625,Day,21
+3,Mindy,Wilson,Nurse,6485782966,brittany@gmail.com,28061 Carolyn Ferry,Night,22
+4,Rachel,Hawkins,Receptionist,(228)664-8139x0542,holly@yahoo.com,29935 James Circle,Night,17
+5,Jasmine,Matthews,Nurse,(436)980-8858x291,dawn@gmail.com,894 April Port,Night,30
+6,Robert,Martin,Nurse,692.899.2631x4400,kelly@hotmail.com,5020 Nicholas Mountain,Night,30
+7,Sarah,Mills,Receptionist,5628520972,christina@hotmail.com,7734 Potter Lights,Day,6
+8,Christopher,Brown,Nurse,247.683.0986x037,charlene@gmail.com,767 Donald Pass Apt. 171,Night,23
+9,Robert,Jackson,Nurse,001-984-740-6242x048,rebekah@gmail.com,043 Hannah Meadows,Night,24
+10,Timothy,Pierce,Technician,980.832.2485x573,adam@yahoo.com,5749 Dalton Camp Suite 848,Night,23
+11,Patrick,Kelly,Nurse,(796)399-5525,harry@gmail.com,067 Michael Terrace Apt. 266,Day,4
+12,Andres,Bennett,Receptionist,7229321040,matthew@yahoo.com,7212 Brian Plain Apt. 802,Night,1
+13,Danielle,Ramsey,Receptionist,406.894.7463x42958,scott@yahoo.com,014 Miles Dale Suite 313,Day,5
+14,Peter,Thompson,Administrator,3407347278,melissa@yahoo.com,3595 Danielle Isle Suite 282,Day,15
+15,Albert,Espinoza,Nurse,001-390-623-5868x153,michele@yahoo.com,2961 Ronald Knoll,Day,17
+16,Daryl,Moore,Administrator,+1-301-808-7664,meghan@yahoo.com,0777 Darin Springs,Night,21
+17,Patricia,Mack,Administrator,342-993-2160x56741,steve@hotmail.com,606 Jon Islands,Day,12
+18,Gary,Mata,Nurse,001-697-760-3101,elizabeth@hotmail.com,77453 Willie Port Suite 093,Day,29
+19,Alexis,Ramos,Receptionist,295-671-8571x436,melanie@gmail.com,987 Rodgers Orchard,Day,11
+20,Andrea,Taylor,Receptionist,793.204.2472,erika@yahoo.com,71833 Danielle Hill Apt. 249,Day,16
+21,Annette,Russell,Nurse,364-706-8858,mark@yahoo.com,3781 Crystal Locks,Day,6
+22,Brandon,Miranda,Administrator,001-919-835-0757x721,sarah@gmail.com,4027 Michael Way Apt. 118,Night,24
+23,Albert,Jones,Technician,+1-230-835-6919,amy@hotmail.com,5113 Barron Stream,Night,19
+24,Susan,Contreras,Technician,5293053768,amanda@gmail.com,091 Michael Trail Apt. 908,Night,25
+25,Jason,Mullen,Technician,001-413-914-2916x9296,anthony@hotmail.com,9551 Allen Mission Apt. 296,Night,7
+26,Vincent,Johnson,Technician,931.695.8409x643,allison@gmail.com,6287 Jackson Road Apt. 127,Day,5
+27,Carolyn,Kennedy,Technician,001-631-457-9640,sara@hotmail.com,430 White Club,Night,10
+28,Zoe,Allen,Nurse,+1-757-275-9597x65474,andrew@yahoo.com,23091 Spencer Pass,Day,8
+29,Brendan,Macdonald,Receptionist,+1-481-442-4757x677,duane@yahoo.com,255 Bush Corners Suite 368,Night,10
+30,Gabrielle,Smith,Administrator,+1-478-913-3185,mario@hotmail.com,265 Johnny Extension Suite 097,Day,5
+31,Karen,Lewis,Administrator,+1-482-572-0343x10014,tonya@hotmail.com,725 Reid Parkways Suite 221,Night,15
+32,Jennifer,Kelly,Technician,936-791-9792,joy@hotmail.com,51080 Paul Tunnel,Day,19
+33,Lydia,Torres,Nurse,001-233-435-5677x90159,jennifer@hotmail.com,47725 Williams Drive,Night,8
+34,Brittany,Williams,Technician,001-732-584-2199x61149,jennifer@gmail.com,8499 Johns Vista,Night,16
+35,Kimberly,Lozano,Technician,(244)576-4935x3064,nicole@gmail.com,9995 Lee Coves,Day,9
+36,Harold,Peterson,Nurse,(998)688-9543,jacqueline@yahoo.com,750 Brandon Streets Apt. 311,Day,8
+37,Rachel,Johnston,Receptionist,6924553176,adam@yahoo.com,63323 Bishop Divide,Day,12
+38,Christopher,Watson,Nurse,(372)990-2664x550,michele@hotmail.com,779 Molly Vista Apt. 891,Night,24
+39,Christopher,Brown,Receptionist,881-576-4560,travis@yahoo.com,4028 Frank Forks Apt. 696,Night,27
+40,Anita,Miller,Technician,685.319.0829,kimberly@gmail.com,54064 Dunn Park Apt. 232,Day,22
+41,Annette,Hernandez,Administrator,568-982-9461,kevin@gmail.com,0189 Chris Streets Suite 226,Night,5
+42,Laura,Edwards,Receptionist,618.278.4954,lauren@yahoo.com,9733 Jill Land,Day,14
+43,Anthony,Newton,Nurse,(348)285-1988,andrew@hotmail.com,6675 Charles Bypass Apt. 690,Night,4
+44,Priscilla,Gonzalez,Receptionist,709-753-8767x19460,elizabeth@gmail.com,1880 Ellis Wall Suite 116,Day,9
+45,Katrina,Quinn,Administrator,8124423113,christopher@gmail.com,1007 Amy Parks Apt. 323,Day,18
+46,Sandra,Rivas,Administrator,390-415-9444,gabriel@hotmail.com,2236 Angela Mount,Night,10
+47,Kyle,Bryant,Receptionist,(216)200-3111x3862,corey@yahoo.com,14201 Brown Causeway,Night,25
+48,Tonya,Sullivan,Receptionist,8349159953,phillip@gmail.com,5428 Alicia Forest,Night,22
+49,Jacob,Hoffman,Receptionist,454.566.1838x13430,jennifer@gmail.com,97532 Michelle Gateway Apt. 313,Day,14
+50,William,Dickerson,Technician,743-785-3329x4140,lindsay@gmail.com,578 Samantha Mount,Day,14
+51,Kenneth,Todd,Receptionist,671-334-1248,sharon@yahoo.com,695 Kendra Neck,Day,6
+52,Donna,Pennington,Administrator,(884)207-4121,alyssa@yahoo.com,1090 Spence Mountains,Day,23
+53,Sarah,Collins,Technician,+1-431-969-4380x86448,willie@yahoo.com,7112 Jason Dam,Night,20
+54,Adrian,Mack,Nurse,(719)971-8114x8552,james@hotmail.com,329 Gilbert Trail Suite 178,Night,18
+55,Christopher,Williams,Nurse,(285)828-0311x071,jill@hotmail.com,502 Derrick Island,Day,19
+56,Jackson,Daniels,Administrator,757-713-2165x717,douglas@yahoo.com,8720 Gordon Walk,Day,16
+57,Steven,Gallagher,Receptionist,714-703-3499x6828,larry@gmail.com,57567 Murray Turnpike,Night,30
+58,Christine,Rowland,Nurse,996-862-1458,phillip@hotmail.com,9200 Kayla Club Suite 617,Night,2
+59,Steven,Wood,Administrator,(869)957-6124,bradley@gmail.com,8894 Blankenship Fords Apt. 565,Day,1
+60,Joseph,Smith,Receptionist,+1-348-990-2424x45140,rodney@hotmail.com,9163 Chapman Drive Suite 706,Night,15
+61,Allison,Strickland,Receptionist,866.663.4752x775,donald@hotmail.com,34872 Allen Mountain,Day,9
+62,Kelly,Adams,Nurse,001-989-581-4208x21408,alan@hotmail.com,98225 Reynolds Hills Suite 341,Day,12
+63,Debbie,Hart,Administrator,(576)375-9573,allison@gmail.com,22146 John Path Suite 941,Day,5
+64,Cathy,Collier,Administrator,812.898.0637,christopher@gmail.com,67432 Nicole Roads Suite 304,Night,2
+65,Katherine,Peterson,Receptionist,854.780.4911x51272,jeffrey@gmail.com,7399 Diana Stravenue Suite 147,Night,17
+66,Steve,Washington,Nurse,(708)825-7523x01178,tanya@gmail.com,9525 Paul Streets,Night,21
+67,Stephanie,Mccoy,Receptionist,537-928-4777x506,melissa@hotmail.com,76247 Williams Vista,Day,12
+68,Timothy,Walsh,Nurse,581-946-3491,amanda@hotmail.com,803 Buck Motorway,Night,20
+69,Leroy,Brown,Technician,+1-580-281-6570x703,adam@hotmail.com,3806 Buchanan Shoals,Day,24
+70,James,Johnson,Administrator,786.336.0542,philip@hotmail.com,345 Alexis Islands,Night,24
+71,Wyatt,Buck,Technician,3038624658,cameron@gmail.com,959 Butler Highway Suite 339,Night,18
+72,Karen,Taylor,Receptionist,439.364.8718x91175,brittney@yahoo.com,223 Castillo Motorway,Day,20
+73,Lisa,Schmidt,Nurse,850-404-8221x418,casey@hotmail.com,687 Davis Points Apt. 858,Day,8
+74,Crystal,Tran,Nurse,3248764178,tasha@yahoo.com,850 Ryan Flats Suite 487,Day,4
+75,John,Cardenas,Technician,001-577-742-3112,michelle@yahoo.com,514 Singleton Dam,Night,7
+76,Keith,Jimenez,Technician,(735)330-4324x8701,jose@yahoo.com,0853 Fischer Camp,Day,27
+77,Mark,Joseph,Administrator,493-254-8461,lori@hotmail.com,517 Molina Bypass Apt. 308,Day,10
+78,Brenda,Brooks,Receptionist,532-301-7326x72422,katherine@yahoo.com,402 Cordova Shoal,Day,18
+79,Brian,Williams,Technician,522-682-9984x319,brent@yahoo.com,945 Autumn Greens Apt. 457,Night,2
+80,Gina,Simmons,Technician,(773)311-5975,kyle@hotmail.com,65265 Bowen Creek,Day,2
+81,Brent,Bates,Administrator,564-759-6144x63561,jennifer@hotmail.com,48265 Potter Summit Suite 607,Night,7
+82,Tammy,Johnson,Receptionist,+1-581-935-0699x356,april@gmail.com,4325 Thomas Glens Suite 323,Night,29
+83,Deborah,Jordan,Technician,001-221-817-2343x320,carrie@hotmail.com,1515 Jerry Radial Suite 941,Night,9
+84,Carolyn,Baker,Receptionist,533.740.5061,natasha@yahoo.com,9756 Lawrence Ports Suite 230,Day,17
+85,David,Gonzalez,Technician,869-964-5655,luke@hotmail.com,77737 Joshua Tunnel,Day,27
+86,Jacqueline,Moreno,Receptionist,(783)772-2916,brianna@gmail.com,298 Alvarez View Suite 181,Day,1
+87,Jennifer,Jennings,Administrator,666.383.6038,brian@hotmail.com,72869 Shaffer Courts,Day,1
+88,Stanley,Munoz,Nurse,+1-201-697-2056,thomas@gmail.com,77204 Johnson Common Apt. 547,Day,3
+89,Katherine,Cummings,Nurse,(320)248-8060,curtis@hotmail.com,945 Liu Glen Apt. 875,Night,18
+90,Jacob,Mitchell,Administrator,592-879-4340x27917,chelsey@hotmail.com,154 Mark Station,Night,9
+91,Mary,Trevino,Technician,3509032066,allison@yahoo.com,87118 Cynthia Trafficway Suite 174,Day,14
+92,Lawrence,Erickson,Receptionist,+1-271-775-1490,taylor@gmail.com,477 Thomas Ramp Suite 661,Day,5
+93,Valerie,Anderson,Receptionist,245.299.0855x729,courtney@gmail.com,787 Hannah Motorway,Night,11
+94,Allison,Craig,Administrator,001-487-367-0349,joe@gmail.com,3164 Thomas Road Apt. 476,Night,11
+95,Jeffrey,Mccall,Nurse,230.644.1760x7745,lisa@hotmail.com,9129 Pollard Brooks,Day,8
+96,Jose,Hubbard,Administrator,+1-786-356-7744x9691,robert@gmail.com,58228 Jennifer Parks Apt. 810,Day,9
+97,Johnny,Bailey,Nurse,218.544.8753x203,rhonda@hotmail.com,125 Jeffrey Dale,Day,4
+98,Christopher,Russo,Nurse,001-464-737-6675x8805,carl@gmail.com,19042 Benjamin Fork Suite 291,Night,8
+99,Jason,Sullivan,Receptionist,+1-379-320-5038,brenda@yahoo.com,2579 Nelson Roads,Night,20
+100,Sean,Heath,Nurse,307.485.5478x5290,brenda@gmail.com,435 Richard Ville,Night,11
+101,Virginia,Williams,Nurse,001-230-921-3342x067,brandy@gmail.com,4072 Hernandez Harbors,Day,12
+102,Robert,Perkins,Technician,+1-809-590-7770,james@gmail.com,084 Wilcox Shoal Suite 510,Day,18
+103,Joshua,Spencer,Technician,463-275-3613,samantha@hotmail.com,428 Jeremy Crescent,Night,4
+104,Maxwell,Webb,Receptionist,(546)530-5418x402,adrian@gmail.com,34158 Heather Inlet,Night,20
+105,William,Paul,Receptionist,+1-795-537-9211x998,gabriel@yahoo.com,397 Thompson Wall,Night,7
+106,Alyssa,Lee,Technician,+1-219-810-2614x7955,jason@yahoo.com,55126 Karen Park Apt. 885,Night,8
+107,Tina,Williamson,Receptionist,001-775-648-1276x941,kelly@yahoo.com,255 Thompson Village,Night,10
+108,Scott,Page,Administrator,001-568-945-3067x35504,tina@yahoo.com,3469 Lisa View Apt. 392,Night,26
+109,Jason,Santiago,Administrator,353.691.6259x4008,timothy@yahoo.com,191 Thomas Prairie Apt. 865,Night,23
+110,Emily,Benitez,Administrator,(882)723-5971,aaron@hotmail.com,22562 Jennifer Prairie,Day,2
+111,Michael,Bartlett,Technician,331.485.1043,victoria@yahoo.com,59661 Travis Orchard,Night,16
+112,Sarah,Crane,Nurse,314-991-4008x5492,scott@yahoo.com,53383 Acevedo Port,Day,1
+113,Justin,Alvarez,Technician,+1-699-234-0721,scott@gmail.com,041 Gonzalez Mountains,Day,13
+114,Anthony,Quinn,Receptionist,(532)597-3137,hannah@hotmail.com,05167 Reyes Pines,Day,24
+115,Virginia,Tucker,Administrator,(704)642-5258,justin@gmail.com,7361 Evelyn Neck,Night,14
+116,Douglas,Anderson,Administrator,+1-249-680-8968x4137,vanessa@yahoo.com,77002 Whitney Fort,Day,13
+117,Sara,Clark,Technician,6222480141,barbara@gmail.com,7324 Kristen Road,Night,24
+118,Carlos,Taylor,Technician,261-889-8476x73712,tyler@gmail.com,439 Lloyd Oval Apt. 964,Day,5
+119,Patricia,Miller,Receptionist,604.817.4212,michael@hotmail.com,7167 Vanessa Pass,Night,15
+120,David,Brown,Administrator,+1-435-830-4304x40951,stacie@gmail.com,042 Timothy Fords,Night,22
+121,Charles,Grant,Administrator,+1-294-907-1219x00809,kevin@hotmail.com,081 Boyd Lodge,Night,5
+122,Savannah,Morgan,Technician,(309)747-8262,garrett@gmail.com,91310 Murphy Estates,Day,4
+123,Alyssa,Cowan,Nurse,685-594-0306x0703,jocelyn@yahoo.com,902 Tiffany Spring Suite 643,Day,28
+124,Kimberly,Ali,Nurse,588.647.7187,samantha@yahoo.com,89401 Angela Oval,Day,10
+125,Robin,Williams,Technician,832-217-9194x841,sally@hotmail.com,35928 Amy Avenue,Day,20
+126,Zachary,Turner,Nurse,(310)791-0880x397,alex@yahoo.com,9185 Garner Brooks,Day,24
+127,Charles,Conner,Technician,6353244807,kyle@yahoo.com,149 Harris Point Apt. 814,Day,13
+128,Donna,Torres,Nurse,(389)754-5036x014,lisa@hotmail.com,0194 Brianna Harbor Apt. 006,Night,23
+129,Tiffany,Morris,Technician,952.837.3253,regina@hotmail.com,586 Matthew Avenue,Night,30
+130,Anna,Montes,Nurse,(713)848-4420,travis@yahoo.com,689 Megan Drives Apt. 899,Night,20
+131,Vincent,Schmidt,Nurse,(358)914-5032x8729,janet@hotmail.com,69505 Sarah Drive Apt. 272,Day,2
+132,Stephanie,Carr,Technician,925.984.1548x305,heather@yahoo.com,0206 William Isle,Night,15
+133,Heather,Jenkins,Technician,562.227.8498,debbie@yahoo.com,08900 Vincent Shoals Apt. 100,Day,25
+134,Vanessa,Ramirez,Receptionist,+1-797-722-8017x47996,james@gmail.com,3911 Salinas Lock,Night,29
+135,Terri,Carrillo,Administrator,343.891.6663x82959,karen@hotmail.com,52011 Briggs Unions,Day,6
+136,Brian,Gray,Receptionist,001-417-398-8401x771,gregory@gmail.com,92555 Justin Land Apt. 292,Day,27
+137,Anthony,Jones,Technician,(564)679-0589,nicole@gmail.com,6942 Kenneth Stream,Day,26
+138,Andrew,Perry,Technician,603-404-3748,christopher@hotmail.com,019 Anderson Mall,Night,9
+139,Christine,Carroll,Administrator,+1-220-393-1453,stacy@yahoo.com,252 Henry Throughway,Night,21
+140,Richard,Barr,Administrator,253-649-6674x88845,denise@hotmail.com,1508 Cheryl Harbor,Night,15
+141,Bridget,Watkins,Nurse,387-737-7620,roy@yahoo.com,2735 Gloria Plains,Day,13
+142,Michael,Todd,Administrator,(732)700-4365,paul@hotmail.com,25380 Lewis Drives,Day,17
+143,Alec,Hudson,Receptionist,001-594-230-7746x8023,derek@hotmail.com,12949 Taylor Oval,Night,7
+144,Chelsea,Austin,Administrator,536.552.7489x5335,nicholas@gmail.com,9565 Lee Cape,Day,30
+145,Gary,Sullivan,Technician,001-860-314-7650x87804,shane@gmail.com,861 Smith Divide Suite 452,Day,23
+146,Hunter,Cook,Administrator,920.394.6100x2121,michael@hotmail.com,827 Pierce Road Suite 599,Night,11
+147,Roger,Duncan,Receptionist,+1-564-969-7392x88568,michelle@gmail.com,36214 Wall Course,Night,1
+148,Kathleen,Odonnell,Nurse,001-736-851-2681x0352,warren@yahoo.com,98015 Kathleen Court,Night,19
+149,Jason,Medina,Nurse,+1-841-618-2721x15918,cristina@gmail.com,2752 Christina Square,Day,10
+150,Angel,Harris,Nurse,(491)528-0946x351,shawn@hotmail.com,9489 Chavez Junction,Night,3
+151,Courtney,Ramirez,Nurse,001-388-682-0462x6545,michael@gmail.com,138 Washington Port,Day,18
+152,Marie,Williams,Receptionist,992.373.4053,christopher@gmail.com,786 Ryan Shores Apt. 300,Night,19
+153,Antonio,Thomas,Administrator,7825719320,amanda@gmail.com,15984 Gonzalez Springs Suite 221,Day,25
+154,Zachary,Salas,Technician,001-855-602-6230x611,mary@hotmail.com,7807 Allen Parkway Suite 687,Night,23
+155,Sean,Lee,Receptionist,(218)553-4378x721,amanda@hotmail.com,053 Scott Lights Apt. 860,Day,5
+156,Gary,Moore,Receptionist,001-308-815-6480,rachel@gmail.com,9339 Ronald Curve,Day,25
+157,Victor,Park,Administrator,671-822-6483x527,eric@hotmail.com,758 Andrew Meadow Suite 563,Day,24
+158,Timothy,Barnes,Nurse,001-636-262-5764x39910,katherine@yahoo.com,19935 Curtis Summit,Day,2
+159,Paul,Sanchez,Administrator,505.849.0303x9657,sara@hotmail.com,6625 Robert Unions,Day,13
+160,Sandra,Cohen,Nurse,(470)348-3570x1611,tracy@gmail.com,9889 Robert Field,Day,8
+161,Michael,Santana,Administrator,+1-627-805-8744x817,micheal@gmail.com,1618 Pratt Overpass,Night,8
+162,Tiffany,Saunders,Receptionist,+1-710-726-4379x7990,mark@hotmail.com,8146 Martinez Greens,Night,12
+163,Theresa,Carpenter,Administrator,(584)537-1242,kristen@gmail.com,212 Galvan Ways,Day,5
+164,Daniel,Peterson,Nurse,861.703.8641x644,melinda@yahoo.com,4136 Daniels Flat,Night,15
+165,Daniel,Nguyen,Nurse,811.821.9515x986,rebecca@hotmail.com,128 Fletcher Summit,Day,26
+166,Misty,Conley,Receptionist,+1-356-824-5823,jessica@hotmail.com,99902 Gomez Lake,Night,26
+167,Michael,Burns,Nurse,717-959-8224x83969,alison@gmail.com,21017 Gray Roads Apt. 868,Day,5
+168,Bryan,Smith,Administrator,+1-434-416-2206x748,angela@gmail.com,053 Brooks Corners Suite 222,Night,26
+169,Travis,Leonard,Receptionist,370-393-4499x49604,ronald@gmail.com,05587 Miller Roads Suite 491,Day,25

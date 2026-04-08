@@ -1,0 +1,128 @@
+DoctorID,FirstName,LastName,Specialty,PhoneNumber,Email,Address,Availability,DepartmentID
+1,Erica,Farley,Obstetrics,4296660105,erica@yahoo.com,6618 Zavala Inlet,11,2
+2,Andrew,Green,Endocrinology,518.900.9212x009,andrew@gmail.com,5372 Gina Cliff,10,1
+3,Brittany,Schmidt,Nephrology,7128353979,brittany@yahoo.com,3126 Campos Mews,7,18
+4,Elizabeth,Duffy,Urology,(383)886-5441,elizabeth@hotmail.com,3342 Edwards Unions Suite 729,4,18
+5,Corey,Wilson,Rheumatology,+1-313-617-2007x2710,corey@hotmail.com,027 Scott Groves,6,1
+6,Tammy,Lee,Psychiatry,+1-460-275-3102x91647,tammy@hotmail.com,7540 Carrie Route,8,29
+7,Joshua,Howe,General Surgery,001-908-984-5547x689,joshua@gmail.com,087 Cynthia Corner,12,30
+8,Meredith,Johnson,Internal Medicine,559.523.2150x898,meredith@hotmail.com,512 Bryant Avenue,9,24
+9,John,Black,Hematology,(939)497-6801,john@gmail.com,29815 Sherman Valleys Suite 830,10,12
+10,Gregory,Mckinney,Internal Medicine,526.897.9465x60385,gregory@hotmail.com,82122 Tate Canyon Suite 069,4,24
+11,Kevin,Cantrell,Cardiology,411.453.3359x5891,kevin@gmail.com,0305 Kayla View,12,27
+12,Ryan,Perez,Neurology,+1-570-336-4265,ryan@hotmail.com,269 Michael Causeway,11,18
+13,Craig,Cooper,Gynecology,607-926-9252,craig@hotmail.com,4580 Lisa Pine Apt. 363,10,1
+14,Carlos,Richardson,Orthopedics,736-418-6870,carlos@hotmail.com,8615 Glass Flats,12,2
+15,Ellen,Richardson,Obstetrics,001-394-841-4261x78561,ellen@yahoo.com,8315 Austin Junctions Suite 946,7,2
+16,Jennifer,Barrett,Infectious Disease,9442649894,jennifer@yahoo.com,0397 Mark Walk,9,3
+17,Nicholas,Turner,Infectious Disease,693-850-7146,nicholas@hotmail.com,4108 Mcmahon Lane,7,3
+18,Bobby,Patel,Critical Care,691-978-2532,bobby@hotmail.com,474 Stewart Parks Suite 042,6,8
+19,Sarah,Mendoza,Ophthalmology,997.809.4970x120,sarah@gmail.com,440 Robert Freeway,7,1
+20,Caroline,Bailey,Vascular Surgery,(247)759-2232x94700,caroline@hotmail.com,1237 Charles Station Apt. 605,4,30
+21,Jeremy,Walsh,Dermatology,+1-395-281-7235x712,jeremy@hotmail.com,95780 Drake Forest,7,12
+22,Timothy,Leon,Otolaryngology,766-639-6576x6152,timothy@hotmail.com,8802 Long Parkways,5,1
+23,Christopher,Rivera,Gastroenterology,6964623735,christopher@yahoo.com,416 Wood Glens Apt. 359,6,1
+24,Bryan,Alvarez,General Surgery,+1-382-462-1794x156,bryan@hotmail.com,1405 Gene Lock,11,30
+25,Luis,Dean,Otolaryngology,(891)811-5939x175,luis@hotmail.com,0930 Cruz Square,8,1
+26,Megan,Arroyo,Pain Medicine,(432)904-9830x66464,megan@gmail.com,9221 Kevin Islands,9,23
+27,Monica,Nicholson,Hematology,(262)660-5039x06018,monica@hotmail.com,809 James Ramp Suite 631,5,12
+28,David,Taylor,Pain Medicine,+1-628-611-1373x845,david@gmail.com,111 Matthew Light Suite 774,6,23
+29,David,Thompson,Internal Medicine,831.807.3999,david@yahoo.com,93104 Nathan Ramp,12,24
+30,Tammy,Hamilton,Hematology,(521)790-3050,tammy@gmail.com,522 Murray Way,9,12
+31,Victoria,Chavez,Vascular Medicine,430.359.1502,victoria@gmail.com,3956 Crystal Road Suite 925,10,2
+32,Megan,Rodriguez,Infectious Disease,001-715-508-9546,megan@gmail.com,8094 Stone Mountains Suite 907,9,3
+33,Robert,Munoz,Endocrinology,202-986-6980,robert@gmail.com,38936 Nelson Harbors Suite 987,6,1
+34,Madison,David,Hematology,540.292.9676x459,madison@gmail.com,888 Carter Cliffs,9,12
+35,Brian,Franklin,Pulmonology,+1-597-296-1543x2953,brian@hotmail.com,05273 Justin Mountain,12,1
+36,Kimberly,Snow,Vascular Medicine,397-629-2967x02490,kimberly@hotmail.com,11025 May Lodge,11,2
+37,Anthony,Moody,Nephrology,(280)485-5739,anthony@gmail.com,92392 Joe Common,6,18
+38,Julie,Murphy,Cardiology,342.720.4639,julie@yahoo.com,748 Greg Parkway,8,27
+39,Susan,Tran,Pain Medicine,624-730-2286,susan@yahoo.com,938 Evans Port Suite 327,4,23
+40,Mary,Hernandez,Vascular Surgery,001-399-979-0810x27458,mary@gmail.com,87462 Scott Inlet,10,30
+41,April,Garcia,Rheumatology,+1-874-716-7634x288,april@yahoo.com,04287 Mccarthy Prairie Apt. 263,6,1
+42,Stephen,Sandoval,Vascular Medicine,280.246.4128,stephen@yahoo.com,9166 Gabrielle Pass,10,2
+43,Kenneth,Johnson,Pediatrics,+1-985-945-4876x15805,kenneth@yahoo.com,74590 Walker Pass,4,2
+44,Michael,Davis,Allergy,423.450.2755x939,michael@yahoo.com,146 Rachel Rest Suite 746,4,28
+45,Brenda,Brown,Pain Medicine,+1-792-370-1905x0484,brenda@yahoo.com,53167 Krista Port,7,23
+46,Ashley,Zuniga,Allergy,857.934.3602,ashley@yahoo.com,84186 Thomas Spurs Apt. 835,10,28
+47,David,Shelton,Neurology,939-814-1119x76895,david@yahoo.com,9734 Short Land,10,18
+48,Mallory,Hebert,General Surgery,+1-342-393-2665x96442,mallory@gmail.com,811 Burke Way Suite 094,9,30
+49,Stephanie,Beltran,Infectious Disease,(512)904-9015,stephanie@hotmail.com,32883 Jared Fort,8,3
+50,Robin,Flores,Pulmonology,(622)784-0898x221,robin@gmail.com,98494 Solomon Hills Suite 464,7,1
+51,Veronica,Phillips,Hematology,312.517.9947x9371,veronica@hotmail.com,84384 Maldonado Circle Apt. 136,4,12
+52,Denise,Dickerson,Pain Medicine,645.942.0478x5080,denise@hotmail.com,9366 Joseph Turnpike,9,23
+53,Michael,Frank,Otolaryngology,463.348.4764x89854,michael@hotmail.com,9880 Kristen Street Apt. 838,9,1
+54,Jon,Walsh,Ophthalmology,(379)610-1149,jon@yahoo.com,84312 Sean Garden,11,1
+55,Alan,Williams,Nephrology,(801)943-9066x796,alan@yahoo.com,8957 Spears Expressway,8,18
+56,Kathleen,Mcdonald,Obstetrics,+1-486-502-7742,kathleen@yahoo.com,6879 Drake Terrace,6,2
+57,Noah,Hernandez,Ophthalmology,3676995605,noah@gmail.com,2615 Susan Drive Apt. 610,12,1
+58,Julia,Strickland,General Surgery,535.593.4838,julia@hotmail.com,1416 Howard Springs,8,30
+59,Christopher,Navarro,Allergy,+1-968-991-8267x509,christopher@yahoo.com,82611 Flores Rest,7,28
+60,Melissa,Leach,Endocrinology,737-708-9240x04841,melissa@yahoo.com,062 Michael Mountains Apt. 730,11,1
+61,Lisa,Stewart,Internal Medicine,001-650-275-9808x53223,lisa@gmail.com,43910 Jonathan Island Apt. 124,5,24
+62,Andrea,Rodriguez,Gynecology,9625911730,andrea@gmail.com,16776 Christian Dale Apt. 126,5,1
+63,Devin,Jordan,Dermatology,537-510-5255x531,devin@hotmail.com,3733 Campbell Passage Suite 724,10,12
+64,Wayne,Woods,Psychiatry,+1-664-917-4129x1395,wayne@yahoo.com,287 Derek Place Suite 118,9,29
+65,Michael,Roth,Pain Medicine,+1-919-271-3249x773,michael@yahoo.com,33103 George Roads,12,23
+66,Mark,Ford,Gynecology,+1-430-840-3110,mark@gmail.com,4158 Christopher Forges Suite 008,5,1
+67,Matthew,Molina,Nephrology,+1-840-748-3837x680,matthew@hotmail.com,70791 Miguel Field,6,18
+68,John,Reed,Psychiatry,858.543.6552,john@hotmail.com,050 Lowe Forge,6,29
+69,Kelly,Phillips,Cardiology,260-731-3430,kelly@hotmail.com,2639 Hill Springs,4,27
+70,Adam,Harvey,Orthopedics,936.536.6630x12327,adam@hotmail.com,57762 Fuentes Estate Suite 881,5,2
+71,Tim,Lewis,Oncology,001-209-875-8287x5153,tim@yahoo.com,7010 Hicks Mountain Apt. 549,7,1
+72,James,Johnson,Endocrinology,7882667785,james@hotmail.com,8450 Parsons Common,6,1
+73,Lisa,Hurley,Endocrinology,927.500.3886x832,lisa@yahoo.com,55009 Molina Motorway Apt. 633,5,1
+74,Roger,Gonzalez,Gastroenterology,419.932.5863x53218,roger@yahoo.com,397 Barbara Freeway,6,1
+75,Karen,Roberts,Oncology,721.832.5277x632,karen@yahoo.com,809 Elizabeth Estate Suite 087,7,1
+76,Michele,Ortiz,Critical Care,3174148546,michele@hotmail.com,731 Ramirez Fords,4,8
+77,Gregory,Faulkner,Gynecology,(381)376-8393,gregory@gmail.com,4764 Rebecca Station Suite 193,7,1
+78,Jennifer,Kramer,Gynecology,+1-397-920-7972,jennifer@hotmail.com,2588 Diana Curve Suite 828,10,1
+79,Rhonda,Dixon,Oncology,+1-799-729-4861x395,rhonda@gmail.com,82949 Breanna Greens,10,1
+80,Debra,Contreras,Infectious Disease,(351)698-2425,debra@gmail.com,3693 Lee Circle,9,3
+81,Adam,Cook,Cardiology,700.511.3943x016,adam@gmail.com,768 Danny Ferry Suite 292,5,27
+82,Martha,Love,Internal Medicine,719.847.8239,martha@yahoo.com,065 Allen Shores Suite 678,4,24
+83,Elizabeth,Miller,Cardiology,(782)635-8002,elizabeth@gmail.com,3187 Nguyen Stravenue,12,27
+84,Jason,Wilkinson,Dermatology,+1-875-693-2753,jason@gmail.com,98144 Hamilton Island Suite 983,5,12
+85,William,Freeman,Neurology,+1-512-859-6642x91481,william@hotmail.com,121 Flynn Vista,11,18
+86,Paige,Preston,Obstetrics,653.314.2589,paige@hotmail.com,00351 Holder Avenue Apt. 569,8,2
+87,Daniel,Lee,Pediatrics,+1-896-747-2122,daniel@hotmail.com,3464 Sheila Tunnel Suite 936,5,2
+88,Beverly,Lang,Urology,(401)521-3999x5449,beverly@yahoo.com,8012 Brittany Motorway,8,18
+89,Derrick,Pennington,Oncology,326-260-9787,derrick@hotmail.com,95367 Stephanie Fords Suite 571,5,1
+90,Heather,Hicks,Cardiology,(296)562-8452,heather@yahoo.com,99456 Washington Manor,5,27
+91,Kevin,Bass,Nephrology,(538)849-3578x139,kevin@gmail.com,197 Armstrong Alley,5,18
+92,Michael,Hunt,Gastroenterology,671-866-9726,michael@hotmail.com,266 Harper Shore Apt. 780,8,1
+93,Nicole,Murphy,Endocrinology,(878)545-3287x2274,nicole@gmail.com,466 Nicholas Mill,7,1
+94,Brian,Taylor,Oncology,+1-954-679-0737x155,brian@gmail.com,34676 Burns Courts Apt. 365,10,1
+95,Kevin,Bennett,Allergy,001-593-695-8325x8826,kevin@yahoo.com,7076 Mark Locks,12,28
+96,Robert,Mason,Infectious Disease,001-544-983-3751,robert@hotmail.com,94788 Gutierrez Unions,4,3
+97,Eric,Mueller,Rheumatology,398-656-9461x1312,eric@gmail.com,542 Jasmine Path,4,1
+98,James,Scott,General Surgery,+1-487-567-9207x11551,james@gmail.com,918 Norris Crescent Apt. 516,5,30
+99,Amanda,Conner,Gastroenterology,215-312-0135x262,amanda@hotmail.com,17858 Shelley Port Suite 184,12,1
+100,Joan,Martinez,Pulmonology,907-948-8839,joan@hotmail.com,0009 Burns Tunnel,7,1
+101,Chad,Velasquez,Obstetrics,001-673-331-5711x82578,chad@yahoo.com,3071 Tammy Squares,5,2
+102,Emily,James,Oncology,+1-909-370-3557x22395,emily@yahoo.com,326 Graham Ridge,6,1
+103,Daniel,Ellis,Ophthalmology,+1-916-247-6898x938,daniel@gmail.com,617 Misty Lakes Suite 680,9,1
+104,William,Alvarez,Gynecology,001-327-775-8451x7235,william@gmail.com,8427 Richard Turnpike,11,1
+105,Robin,Pham,Rheumatology,001-595-334-6555x9016,robin@hotmail.com,26375 Ruiz Mountain,12,1
+106,Whitney,Brown,Infectious Disease,(734)799-4457,whitney@gmail.com,0734 Timothy Key,8,3
+107,Catherine,Carlson,Rheumatology,001-709-977-4400x2082,catherine@gmail.com,218 Jane Cove,4,1
+108,Haley,Nash,Critical Care,(475)527-8090,haley@gmail.com,438 Palmer Fall,5,8
+109,Angela,Knight,Ophthalmology,+1-671-275-7244x68094,angela@hotmail.com,418 Haas Pass Suite 888,8,1
+110,Andrew,Doyle,Internal Medicine,001-780-449-2511x256,andrew@yahoo.com,1912 David Hills Apt. 424,12,24
+111,Rhonda,Wagner,Internal Medicine,291.427.4432x20123,rhonda@gmail.com,5678 Hester Mountains,4,24
+112,Lindsey,Simpson,Gynecology,476-354-1109x73680,lindsey@gmail.com,312 Cline Lake,9,1
+113,Amy,Shepherd,Rheumatology,(401)284-0182x663,amy@yahoo.com,6249 Desiree Drive Suite 874,10,1
+114,Michael,Cruz,Endocrinology,248.543.7886x31065,michael@hotmail.com,2848 Kelly Vista Apt. 647,4,1
+115,April,Cain,Hematology,284.975.6415x90210,april@hotmail.com,67995 Freeman Parkways Apt. 477,4,12
+116,Dwayne,Owen,Gastroenterology,728.787.7140,dwayne@gmail.com,1608 Jorge Knolls Apt. 966,9,1
+117,Erica,Curry,Endocrinology,293-498-8363,erica@gmail.com,19570 Jacobs Canyon,12,1
+118,Anthony,Norton,Critical Care,(939)487-3372x585,anthony@hotmail.com,7003 Martin Lights Suite 009,8,8
+119,Michael,Singleton,Ophthalmology,8047637670,michael@yahoo.com,463 Corey Unions,11,1
+120,Kevin,Diaz,Pulmonology,777-647-5294,kevin@gmail.com,305 Laura Walk Suite 711,12,1
+121,Chelsea,Sharp,Critical Care,7742377155,chelsea@yahoo.com,102 Debbie Cliff Apt. 903,6,8
+122,Christina,Hayden,Neurology,001-798-251-5392x1166,christina@gmail.com,102 Wood Stravenue Suite 828,9,18
+123,Kara,Madden,Ophthalmology,(469)477-8899x066,kara@gmail.com,8125 Rodriguez Stravenue Apt. 085,9,1
+124,Brittany,Young,Critical Care,(347)219-4579,brittany@hotmail.com,003 Jillian Neck Apt. 863,8,8
+125,Rodney,White,Rheumatology,001-897-978-8865x430,rodney@hotmail.com,248 Robert Flat,7,1
+126,Nancy,Flynn,Psychiatry,(592)582-7648,nancy@hotmail.com,8909 Webb Corners Apt. 194,11,29
+127,William,Brown,Gynecology,510.606.8389x2805,william@yahoo.com,32716 Dustin Grove Suite 669,12,1

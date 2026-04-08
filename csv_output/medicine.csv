@@ -1,0 +1,253 @@
+MedicineID,MedicineName,Manufacturer,Stock,Price
+1,Vitamin Supplements,Brown PLC,18,31.16
+2,Enoxaparin,Gonzalez LLC,457,27.46
+3,Oseltamivir,Arnold and Jordan,313,91.87
+4,Celecoxib,Fitzgerald and Patrick,488,51.54
+5,Pibrentasvir,Tran Ltd,149,74.24
+6,Ulipristal Acetate,Hayes LLC,219,58.74
+7,Desmopressin,Gonzales-Estrada,467,59.49
+8,Pramipexole,Ritter Ltd,426,90.12
+9,GnRH Agonists,Green-Wright,246,92.76
+10,Folic Acid,Lara-Mccoy,399,17.76
+11,Emicizumab,Smith LLC,100,37.48
+12,Empagliflozin,Taylor-Hancock,160,45.49
+13,Naltrexone,Patel and Logan,402,84.51
+14,Ulipristal Acetate,Suarez and Contreras,381,67.95
+15,Naltrexone,Martinez-Christensen,236,32.86
+16,Baloxavir,Gonzalez Inc,243,91.94
+17,Bismuth Subsalicylate,Moore and Lambert,114,87.24
+18,Ritonavir,Mosley-Carlson,280,21.99
+19,Vitamin D Analogues,Lee Inc,498,31.66
+20,Spironolactone,Gomez-Fritz,446,6.57
+21,Hydroxychloroquine,Gray and Gardner,335,10.03
+22,Nitroglycerin,Velez and Sons,230,15.02
+23,Vincristine,Lewis and Hansen,437,37.4
+24,Clonidine,Huffman-Ryan,113,20.87
+25,Lisinopril,Walker and Boyd,59,95.68
+26,Vitamin D Analogues,Norman Inc,290,90.29
+27,Plasmapheresis,Gibson Group,289,21.49
+28,Vancomycin,Wallace Group,183,98.79
+29,Thoracentesis,Atkinson and Sons,310,56.47
+30,Fiber Supplements,Pennington-Mitchell,324,78.41
+31,Denosumab,Sawyer-Anderson,335,59.9
+32,Nifedipine,Frank-Love,312,59.16
+33,Metoprolol,Smith PLC,189,93.94
+34,ACE Inhibitors,Davis LLC,56,36.54
+35,Propylthiouracil,Hoover-Smith,294,52.82
+36,Cytarabine,Mcgee-Meyers,143,30.37
+37,Tadalafil,Sullivan-Burnett,322,21.03
+38,Bronchodilators,Ayers and Smith,147,7.42
+39,Ritonavir,Simmons Ltd,29,54.74
+40,Tolvaptan,Clark and Bates,271,53.85
+41,Insulin,Branch LLC,476,40.72
+42,Pramlintide,Davies and Bryant,299,93.05
+43,Simvastatin,Johnson-Ramirez,239,5.85
+44,Exercise,Wolfe and Oconnor,321,86.23
+45,Amphetamine,Fuentes and Zimmerman,260,30.22
+46,Tolterodine,Harper-Woods,404,36.29
+47,Vitamin D,Norton and Howard,285,50.23
+48,Pirfenidone,Rodriguez-Johnson,464,81.35
+49,Tacrolimus,Nelson LLC,22,17.18
+50,Voxelotor,Bishop Inc,142,30.72
+51,CPAP Therapy,Durham Group,343,9.74
+52,Buspirone,Hayes Group,397,17.49
+53,Dutasteride,Baker and Sons,99,27.41
+54,No Medications,Larsen Group,207,43.53
+55,Fluoxetine,Lewis Group,42,61.44
+56,Topiramate,Rogers-Mcintyre,51,57.96
+57,Ocrelizumab,Fletcher-Neal,136,36.96
+58,Delivery,Lawrence-Bishop,482,60.42
+59,Cholecalciferol,Myers and Walsh,458,99.06
+60,Botulinum Toxin,Powell and Hamilton,406,26.04
+61,Temozolomide,Hernandez-Morris,470,95.7
+62,Sonidegib,Brown and Young,389,10.76
+63,Leuprolide,Ramirez and Burgess,400,98.58
+64,Pimecrolimus,Spencer-Sanchez,147,31.38
+65,Hydroxyurea,Hernandez Group,273,69.65
+66,Antivirals,Murray and Jackson,314,92.8
+67,Letrozole,Lewis-Daniel,216,71.02
+68,Solifenacin,Rodriguez PLC,321,94.29
+69,Melphalan,Mosley and Arnold,144,15.28
+70,Phentermine,Harris and Roberts,45,13.07
+71,Laser Therapy,Mendez-Adams,387,5.59
+72,Tenofovir,Zamora and Castro,201,42.96
+73,Azithromycin,Wilson PLC,397,23.03
+74,Omeprazole,Anderson-Preston,472,20.1
+75,Saline Irrigation,King-Lara,38,78.56
+76,Aldosterone Antagonists,Edwards-Garrett,109,75.69
+77,Vincristine,Davis-Rush,83,44.07
+78,Broad-Spectrum Antibiotics,Johnson-Ward,391,85.99
+79,Gabapentin,Ford Ltd,354,14.71
+80,Sevelamer,Parker Ltd,397,90.04
+81,Pramlintide,Smith and Elliott,37,88.88
+82,Progestins,Jones and Foster,312,38.82
+83,Ranitidine,Nelson Inc,491,51.04
+84,No Medications,Hall Group,447,86.63
+85,Beta-Blockers,Scott-Herrera,144,20.89
+86,Methimazole,Patton and Mitchell,150,93.62
+87,Simvastatin,Martinez and Bush,160,10.81
+88,Statins,Navarro Ltd,489,58.24
+89,Prostaglandin E1,Jones Group,70,12.52
+90,Levothyroxine,Watson PLC,72,44.27
+91,Prazosin,Lopez and Miller,254,32.55
+92,Abiraterone,Lee and Sons,472,51.88
+93,Doxycycline,Adkins Group,190,48.28
+94,Simvastatin,Fischer-Estrada,421,94.0
+95,Pramipexole,Lawson PLC,367,13.46
+96,Statins,Mendez and Sons,319,45.14
+97,Efavirenz,Ramirez and Franklin,375,47.64
+98,Sun Exposure,Taylor and Jimenez,63,29.25
+99,CPAP Therapy,Adams-Barnes,390,62.82
+100,Vedolizumab,Russell LLC,198,6.97
+101,Heparin,Moore and Singh,22,25.26
+102,Beta Blockers,Glass-Ramirez,480,87.5
+103,Pancreatic Enzymes,Smith and Sanchez,378,46.21
+104,Sumatriptan,Jones-Guerrero,349,95.76
+105,Magnesium Sulfate,Buchanan and Long,427,86.16
+106,Amitriptyline,Drake and Marshall,426,97.11
+107,Emtricitabine,Hughes and Molina,421,29.46
+108,Voxelotor,Gonzalez and Hughes,108,52.91
+109,Pentosan Polysulfate,Dillon-Crawford,342,64.52
+110,Ropinirole,Davis Group,88,71.79
+111,Hydroxyzine,Rodriguez and Morse,42,75.51
+112,Dacarbazine,Martinez Inc,466,30.47
+113,Mirabegron,Conrad and Casey,282,47.59
+114,IV Fluids,Davis Ltd,334,69.63
+115,Alpha Blockers,Joseph and Torres,393,11.51
+116,Baloxavir,Ramos LLC,499,73.82
+117,Cochlear Implants,Wright-Copeland,287,23.25
+118,Rosuvastatin,Duncan and Pacheco,224,57.1
+119,Cilostazol,Murphy and Miller,483,65.82
+120,Loratadine,White Group,279,48.45
+121,Antacids,Keller and Sons,77,43.45
+122,Saline Irrigation,Morgan-Sutton,356,47.39
+123,Probenecid,Dean and Fernandez,198,60.13
+124,Pitolisant,Phelps Inc,181,41.34
+125,Romiplostim,Wells-Richardson,254,98.13
+126,Ergocalciferol,Johnson PLC,174,65.51
+127,Pentosan Polysulfate,Haynes and Sons,271,23.73
+128,SSRIs,Mitchell Ltd,381,26.04
+129,Emtricitabine,Matthews and Richardson,16,34.97
+130,Eyeglasses,Davis-Jefferson,16,71.63
+131,Adalimumab,Hahn and Ward,404,47.21
+132,Tamsulosin,Sampson and Mathews,157,92.5
+133,Alprazolam,Franklin and Webb,190,83.95
+134,Indomethacin,Marshall and Robinson,69,99.44
+135,Oxybutynin,Clark-Henry,473,95.08
+136,Montelukast,Munoz Inc,279,52.96
+137,Stool Softeners,Arnold-King,447,63.5
+138,Isoniazid,Bruce and Walton,46,67.54
+139,Vasodilators,Paul and Beard,166,41.28
+140,Quetiapine,Jackson-Cruz,413,86.26
+141,Cephalexin,Huerta PLC,89,81.23
+142,Enzalutamide,Ortiz-Greer,454,60.72
+143,Nitrofurantoin,Bowman PLC,91,49.7
+144,Metformin,Thompson and Davis,323,19.14
+145,Sodium Oxybate,Martin Inc,199,26.57
+146,Capsaicin,Chandler-Tran,67,20.54
+147,Glimepiride,Richards and Cooper,435,98.75
+148,Surgery,Camacho and Sons,376,72.26
+149,Naltrexone,Mann and Hamilton,487,52.63
+150,Pelvic Floor Exercises,Mitchell LLC,25,72.05
+151,Plasmapheresis,Banks-Humphrey,312,16.51
+152,G-CSF,Shaw and Brooks,89,24.14
+153,Ferrous Sulfate,Horton Ltd,470,17.95
+154,Risedronate,Kelley and White,261,39.17
+155,Celecoxib,Campbell and Bishop,269,58.1
+156,Pirfenidone,Clark and Donaldson,170,31.16
+157,Botulinum Toxin,Tucker and Greene,173,93.66
+158,Botulinum Toxin,Lara and Smith,338,91.62
+159,Mesalamine,Lang and White,464,26.57
+160,Abiraterone,Daniel-Andrews,156,97.54
+161,Cytarabine,Guzman-Newton,153,84.37
+162,Dextromethorphan,Roberson LLC,193,72.15
+163,Combined Oral Contraceptives,Ross Group,366,49.81
+164,Paxlovid,Watson-Sims,480,32.12
+165,Docetaxel,Warren and White,416,76.79
+166,Cabozantinib,Wood and Sons,62,32.3
+167,Vitamin D,Lee LLC,462,46.39
+168,Ledipasvir,Fox Ltd,378,15.66
+169,Tranexamic Acid,Campbell-Farmer,297,56.8
+170,Nitroglycerin,Thompson PLC,175,76.45
+171,Pimecrolimus,Berger and Phillips,429,84.09
+172,Propylthiouracil,Harper and Porter,463,96.79
+173,Iron Supplements,Hernandez and Hobbs,172,59.96
+174,Eltrombopag,Edwards-Nguyen,338,96.67
+175,Linaclotide,Cox and Francis,442,29.43
+176,Glecaprevir,Merritt-Schroeder,416,19.97
+177,Acetaminophen,Dennis-Hubbard,336,37.72
+178,Magnesium Sulfate,Green Ltd,415,75.55
+179,Penicillin,Ruiz-Hernandez,20,46.51
+180,Acetic Acid,Clark-Tanner,306,16.01
+181,Fluorouracil,Carter and Anderson,32,99.74
+182,Pilocarpine,Phillips and Phillips,293,66.56
+183,Hydroxychloroquine,Davis and Barker,309,86.78
+184,Eltrombopag,Williams Group,22,92.36
+185,Interferon Beta,Waters-Smith,329,81.69
+186,Alendronate,Martinez and Jordan,493,62.7
+187,Retinoids,Odonnell-York,227,80.52
+188,Selegiline,Castro Group,456,29.59
+189,Thoracentesis,Mendoza Ltd,470,63.27
+190,Olanzapine,Edwards Inc,455,14.64
+191,Tamsulosin,Schmidt-Berry,28,39.76
+192,Enzyme Supplements,Ward-Cunningham,290,59.83
+193,Alprazolam,Rose-Carter,322,54.49
+194,Selegiline,Sanchez and Jimenez,241,77.37
+195,Hydroxychloroquine,Wheeler and Sons,77,9.13
+196,Efavirenz,Cain and Flowers,209,7.1
+197,Guanfacine,Smith and Sons,380,95.17
+198,Hydroxyzine,Norton-Gonzalez,167,51.04
+199,Alprostadil,Long-Flores,414,32.94
+200,Fingolimod,Carey and Morris,430,12.19
+201,Disulfiram,Thompson and Mitchell,138,52.13
+202,Stimulants,Hodge and Christian,408,7.79
+203,Neomycin,Logan and Lewis,312,43.79
+204,Gentamicin,Powell-Smith,200,80.73
+205,Diuretics,Matthews and Sons,109,71.04
+206,Oxaliplatin,Larson-Reyes,271,23.27
+207,Clonazepam,Anderson-Arroyo,298,95.34
+208,Vitamin C,Reeves-Berry,403,58.51
+209,Tranexamic Acid,Anderson and Cooper,92,63.48
+210,Lomustine,Wilson and Sons,203,41.75
+211,Ropinirole,West PLC,130,50.77
+212,Melphalan,Reid PLC,48,29.24
+213,Probiotics,Martin and Brennan,458,92.03
+214,Lithium,Bruce LLC,50,23.72
+215,Combined Oral Contraceptives,Fowler and Black,161,42.23
+216,Mitomycin,Booker-Collier,56,37.33
+217,Phenytoin,Salinas and Foster,18,76.05
+218,Pramlintide,Bradley Group,221,96.44
+219,Retinoids,Phillips Ltd,162,58.6
+220,Omeprazole,Garza-Richard,159,91.75
+221,Pancreatic Enzymes,Salas and Lewis,79,24.32
+222,Glatiramer Acetate,Moore and Osborne,348,48.11
+223,Ferrous Gluconate,Wagner Group,154,10.4
+224,Stimulants,Gutierrez and Gray,47,39.34
+225,Fiber Supplements,Boyer Inc,192,47.36
+226,Epoprostenol,Morales-Young,129,45.55
+227,Clonazepam,Rice-Griffin,49,78.94
+228,Nintedanib,Harrison Inc,413,51.39
+229,Febuxostat,Stewart and Sons,40,40.27
+230,Insulin,Kerr and Sons,347,70.44
+231,Montelukast,Fuller and Gonzalez,73,29.87
+232,Belimumab,Rangel and Anthony,392,56.38
+233,Clonazepam,Williams and Whitehead,301,44.94
+234,Calcium Carbonate,Cobb Group,85,24.28
+235,Hydroxyzine,Ball and Taylor,497,88.97
+236,Nitroglycerin Ointment,Patterson and Casey,55,71.2
+237,Alprazolam,Burke and Costa,462,20.27
+238,Trastuzumab,Mayer Inc,73,15.35
+239,Nivolumab,Stanley-Gilbert,497,39.59
+240,Witch Hazel,Murray and Wilson,479,29.45
+241,Vincristine,Cruz and Kent,329,63.65
+242,Doxycycline,Cox and Johnson,164,80.44
+243,Armodafinil,Peterson and Sons,443,49.83
+244,Tranexamic Acid,Burns-Robertson,251,79.58
+245,Riociguat,King-Vasquez,227,95.78
+246,Insulin Glargine,Porter Ltd,488,91.47
+247,Aflibercept,Lopez PLC,101,67.28
+248,Olanzapine,Cherry and Sons,26,60.67
+249,Gluten-Free Diet,Miller LLC,249,40.25
+250,Oxygen Therapy,Rivers-Williams,277,24.72
+251,Anticonvulsants,Collins-Goodman,50,23.18
+252,Thoracentesis,Hampton and Sons,192,23.58
