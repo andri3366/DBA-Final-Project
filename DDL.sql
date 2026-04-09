@@ -1,5 +1,8 @@
 create database HospitalDB;
+GO
+
 use HospitalDB;
+GO
 
 create table Patient (
     PatientID int primary key,
@@ -36,7 +39,8 @@ create table Billing (
     PayStatus varchar(6),
     PaymentDate date,
     PaymentMethod varchar(9),
-    IsInsured varchar(3)
+    IsInsured varchar(3),
+    foreign key (PatientID) references Patient(PatientID)
 )
 
 create table Doctor (
