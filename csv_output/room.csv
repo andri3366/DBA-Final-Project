@@ -1,151 +1,151 @@
 RoomID,RoomType,Status,DepartmentID
-S101,General,Available,1
+S101,Private,Occupied,1
 S102,General,Available,1
-S103,General,Available,1
+S103,Private,Occupied,1
 S104,General,Occupied,1
-S105,Private,Occupied,1
-S201,Private,Occupied,2
-S202,Private,Available,2
+S105,General,Occupied,1
+S201,General,Occupied,2
+S202,General,Occupied,2
 S203,Private,Occupied,2
-S204,Private,Available,2
+S204,General,Occupied,2
 S205,General,Occupied,2
-S301,Private,Occupied,6
-S302,Private,Occupied,6
-S303,Private,Occupied,6
-S304,General,Occupied,6
-S305,General,Available,6
-S401,General,Available,9
-S402,General,Occupied,9
-S403,General,Available,9
-S404,Private,Occupied,9
-S405,General,Occupied,9
-S501,General,Occupied,11
-S502,Private,Occupied,11
-S503,Private,Occupied,11
-S504,Private,Occupied,11
-S505,Private,Available,11
-S601,General,Occupied,16
-S602,General,Occupied,16
-S603,General,Occupied,16
-S604,General,Occupied,16
-S605,Private,Occupied,16
-S701,Private,Occupied,18
-S702,General,Available,18
-S703,Private,Occupied,18
-S704,General,Occupied,18
-S705,Private,Occupied,18
-S801,Private,Occupied,21
-S802,General,Occupied,21
-S803,Private,Occupied,21
-S804,General,Occupied,21
-S805,General,Available,21
-S901,Private,Occupied,29
-S902,General,Occupied,29
-S903,General,Occupied,29
-S904,General,Occupied,29
-S905,General,Occupied,29
-E101,Private,Available,3
-E102,Private,Available,3
-E103,General,Available,3
-E104,General,Available,3
-E105,Private,Occupied,3
-E201,General,Occupied,5
-E202,Private,Occupied,5
-E203,Private,Available,5
-E204,General,Occupied,5
-E205,General,Available,5
-E301,Private,Available,12
-E302,Private,Available,12
-E303,Private,Available,12
-E304,Private,Available,12
-E305,Private,Available,12
-E401,General,Occupied,14
-E402,Private,Occupied,14
-E403,General,Occupied,14
-E404,General,Available,14
-E405,Private,Occupied,14
-E501,Private,Occupied,19
-E502,Private,Occupied,19
-E503,Private,Occupied,19
-E504,General,Occupied,19
-E505,General,Occupied,19
-E601,General,Occupied,22
-E602,General,Occupied,22
-E603,Private,Occupied,22
-E604,General,Occupied,22
-E605,General,Available,22
-W101,Post-Op,Occupied,4
-W102,Post-Op,Occupied,4
-W103,Post-Op,Occupied,4
-W104,Post-Op,Occupied,4
-W105,Post-Op,Occupied,4
-W201,Care Unit,Occupied,10
-W202,Care Unit,Occupied,10
-W203,Care Unit,Occupied,10
-W204,Care Unit,Available,10
-W205,Care Unit,Occupied,10
-W301,General,Occupied,15
-W302,Private,Available,15
-W303,Private,Available,15
-W304,General,Occupied,15
-W305,General,Occupied,15
-W401,General,Occupied,20
-W402,General,Available,20
-W403,Private,Occupied,20
-W404,General,Occupied,20
-W405,General,Available,20
-W501,Private,Occupied,23
-W502,General,Occupied,23
-W503,Private,Occupied,23
-W504,General,Occupied,23
-W505,General,Occupied,23
-W601,Private,Available,27
-W602,General,Occupied,27
-W603,General,Occupied,27
-W604,Private,Occupied,27
-W605,General,Occupied,27
-W701,Post-Op,Occupied,30
-W702,Post-Op,Occupied,30
-W703,Post-Op,Occupied,30
-W704,Post-Op,Occupied,30
-W705,Post-Op,Occupied,30
-N101,Private,Available,7
-N102,Private,Available,7
-N103,General,Occupied,7
-N104,General,Available,7
-N105,Private,Occupied,7
-N201,Care Unit,Occupied,8
-N202,Care Unit,Available,8
-N203,Care Unit,Occupied,8
-N204,Care Unit,Occupied,8
-N205,Care Unit,Occupied,8
-N301,Care Unit,Occupied,13
-N302,Care Unit,Occupied,13
-N303,Care Unit,Available,13
-N304,Care Unit,Occupied,13
-N305,Care Unit,Available,13
-N401,General,Occupied,17
-N402,Private,Occupied,17
-N403,Private,Occupied,17
-N404,Private,Available,17
-N405,General,Available,17
-N501,Private,Occupied,24
-N502,General,Available,24
-N503,General,Available,24
-N504,Private,Occupied,24
-N505,General,Available,24
-N601,Care Unit,Available,25
-N602,Care Unit,Occupied,25
-N603,Care Unit,Occupied,25
-N604,Care Unit,Occupied,25
-N605,Care Unit,Occupied,25
-N701,Emergency,Occupied,26
-N702,Emergency,Available,26
-N703,Emergency,Available,26
-N704,Emergency,Occupied,26
-N705,Emergency,Occupied,26
-N801,Private,Occupied,28
-N802,Private,Available,28
-N803,Private,Occupied,28
-N804,General,Occupied,28
-N805,Private,Occupied,28
+S301,Private,Available,3
+S302,General,Occupied,3
+S303,General,Occupied,3
+S304,Private,Available,3
+S305,General,Available,3
+S401,Private,Occupied,4
+S402,Private,Available,4
+S403,Private,Occupied,4
+S404,General,Available,4
+S405,General,Occupied,4
+S501,General,Available,7
+S502,Private,Occupied,7
+S503,General,Occupied,7
+S504,General,Available,7
+S505,Private,Available,7
+S601,General,Occupied,22
+S602,Private,Occupied,22
+S603,General,Available,22
+S604,Private,Occupied,22
+S605,Private,Occupied,22
+S701,General,Occupied,26
+S702,General,Occupied,26
+S703,Private,Occupied,26
+S704,Private,Occupied,26
+S705,Private,Occupied,26
+N101,Care Unit,Available,5
+N102,Care Unit,Occupied,5
+N103,Care Unit,Available,5
+N104,Care Unit,Occupied,5
+N105,Care Unit,Occupied,5
+N201,Private,Occupied,8
+N202,Private,Available,8
+N203,General,Occupied,8
+N204,General,Occupied,8
+N205,General,Occupied,8
+N301,Private,Occupied,11
+N302,Private,Occupied,11
+N303,Private,Occupied,11
+N304,Private,Available,11
+N305,General,Occupied,11
+N401,Care Unit,Occupied,15
+N402,Care Unit,Occupied,15
+N403,Care Unit,Occupied,15
+N404,Care Unit,Occupied,15
+N405,Care Unit,Available,15
+N501,Care Unit,Occupied,18
+N502,Care Unit,Occupied,18
+N503,Care Unit,Occupied,18
+N504,Care Unit,Occupied,18
+N505,Care Unit,Available,18
+N601,General,Occupied,19
+N602,Private,Occupied,19
+N603,Private,Occupied,19
+N604,General,Available,19
+N605,General,Occupied,19
+N701,General,Occupied,23
+N702,General,Occupied,23
+N703,General,Available,23
+N704,General,Available,23
+N705,Private,Occupied,23
+N801,Emergency,Available,24
+N802,Emergency,Occupied,24
+N803,Emergency,Occupied,24
+N804,Emergency,Occupied,24
+N805,Emergency,Occupied,24
+N901,General,Occupied,27
+N902,Private,Occupied,27
+N903,General,Occupied,27
+N904,Private,Available,27
+N905,Private,Occupied,27
+N1001,General,Occupied,30
+N1002,General,Occupied,30
+N1003,Private,Occupied,30
+N1004,Private,Available,30
+N1005,Private,Occupied,30
+E101,Private,Occupied,6
+E102,General,Occupied,6
+E103,General,Available,6
+E104,General,Occupied,6
+E105,Private,Occupied,6
+E201,General,Occupied,10
+E202,General,Occupied,10
+E203,Private,Occupied,10
+E204,Private,Occupied,10
+E205,Private,Available,10
+E301,General,Occupied,12
+E302,General,Occupied,12
+E303,Private,Occupied,12
+E304,Private,Occupied,12
+E305,General,Occupied,12
+E401,General,Available,16
+E402,Private,Occupied,16
+E403,Private,Occupied,16
+E404,Private,Available,16
+E405,Private,Occupied,16
+E501,Private,Available,21
+E502,General,Occupied,21
+E503,General,Occupied,21
+E504,Private,Available,21
+E505,Private,Available,21
+E601,Private,Available,25
+E602,General,Occupied,25
+E603,Private,Occupied,25
+E604,General,Occupied,25
+E605,General,Occupied,25
+E701,Private,Available,28
+E702,General,Occupied,28
+E703,General,Occupied,28
+E704,General,Occupied,28
+E705,Private,Occupied,28
+E801,Private,Occupied,29
+E802,General,Occupied,29
+E803,Private,Available,29
+E804,Private,Available,29
+E805,General,Occupied,29
+W101,General,Occupied,9
+W102,General,Occupied,9
+W103,Private,Available,9
+W104,General,Available,9
+W105,General,Occupied,9
+W201,Private,Occupied,13
+W202,General,Occupied,13
+W203,Private,Occupied,13
+W204,General,Occupied,13
+W205,Private,Occupied,13
+W301,Care Unit,Occupied,14
+W302,Care Unit,Occupied,14
+W303,Care Unit,Available,14
+W304,Care Unit,Occupied,14
+W305,Care Unit,Occupied,14
+W401,Post-Op,Occupied,17
+W402,Post-Op,Occupied,17
+W403,Post-Op,Occupied,17
+W404,Post-Op,Occupied,17
+W405,Post-Op,Occupied,17
+W501,Post-Op,Available,20
+W502,Post-Op,Occupied,20
+W503,Post-Op,Occupied,20
+W504,Post-Op,Available,20
+W505,Post-Op,Occupied,20

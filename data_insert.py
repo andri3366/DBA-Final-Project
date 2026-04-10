@@ -20,7 +20,7 @@ NUM_APPOINTMENT = 891
 NUM_STAFF = 169
 NUM_ROOM = 150
 NUM_MEDICINE = 252
-NUM_PERSCRIPTION = 1780
+NUM_PRESCRIPTION = 1780
 NUM_MEDICAL_RECORDS = 648
 NUM_ROOM_ASSIGNMENT = NUM_ROOM
 NUM_ROOM_HISTORY = 346
@@ -34,7 +34,7 @@ appointment = []
 staff = []
 room = []
 medicine = []
-perscription = []
+prescription = []
 medical_records = []
 room_assignment = []
 room_history = []
@@ -119,7 +119,7 @@ def classify_treatment(diagnosis):
 for i in range(1, NUM_PATIENT + 1):
 
     fake_fn = fake.first_name()
-    lower_fake_fn = fake.first_name().lower()
+    lower_fake_fn = fake_fn.lower()
     fake_domain = fake.free_email_domain()
     fake_email = lower_fake_fn + '@' + fake_domain
 
@@ -129,7 +129,7 @@ for i in range(1, NUM_PATIENT + 1):
         fake.last_name(),
         fake.date_of_birth().isoformat(),
         ## add age date of today - date of birth
-        random.choice(["Make", "Female"]),
+        random.choice(["Male", "Female"]),
         fake.street_address(),
         fake.phone_number(),
         fake_email,
@@ -261,7 +261,7 @@ roles = ["Nurse", "Technician", "Receptionist", "Administrator"]
 for i in range(1, NUM_STAFF + 1):
 
     staff_fake_fn = fake.first_name()
-    staff_lower_fake_fn = fake.first_name().lower()
+    staff_lower_fake_fn = staff_fake_fn.lower()
     staff_fake_domain = fake.free_email_domain()
     staff_fake_email = staff_lower_fake_fn + '@' + staff_fake_domain
 
@@ -335,6 +335,7 @@ room_num = [r[0] for r in room]
 
 # Room Assignment
 
+baby_keywords = ["Maternity Ward", "Neonatal Intensive Care Unit (NICU)", "Labor and Delivery"]
 patient_dob_lookup = {p[0]:p[3] for p in patient}
 
 assigned_pairs = set()
@@ -345,23 +346,34 @@ occupied_rooms = [r for r in room if r[2] == "Occupied"]
 for r in occupied_rooms:
 
     r_id = r[0]
+    dept_id = r[3]
+    dept_name = department_lookup.get(dept_id)
 
     while True:
         patient_choice = random.choice(patient_id)
+        dob = datetime.strptime(patient_dob_lookup[patient_choice], "%Y-%m-%d").date()
 
+        assign_date = fake.date_between(
+            start_date=max(dob, date.today().replace(year=date.today().year - 3)),
+            end_date="today"
+        )
+        
+        age_days = (assign_date - dob).days
+        age_years = calculate_age_appt(patient_dob_lookup[patient_choice], assign_date)
+        
+        if age_days <= 14:
+            if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+                continue
+        elif age_years < 18:
+            if "Pediatrics" not in dept_name:
+                continue
+        
         pair = (patient_choice, r_id)
 
         if pair not in assigned_pairs:
             assigned_pairs.add(pair)
             break
     
-    dob = datetime.strptime(patient_dob_lookup[patient_choice], "%Y-%m-%d").date()
-
-    assign_date = fake.date_between(
-        start_date=max(dob, date.today().replace(year=date.today().year - 3)),
-        end_date="today"
-    )
-
     room_assignment.append([
         assignment_id,
         assign_date.isoformat(),
@@ -380,7 +392,10 @@ from datetime import timedelta
 
 for i in range(1, NUM_ROOM_HISTORY + 1):
 
-    room_id = random.choice(room_num)
+    room_choice = random.choice(room)
+    room_id = room_choice[0]
+    dept_id = room_choice[3]
+    dept_name = department_lookup.get(dept_id)
     patient_choice = random.choice(patient_id)
 
     today = date.today()
@@ -401,6 +416,20 @@ for i in range(1, NUM_ROOM_HISTORY + 1):
     )
 
     end_date = start_date + timedelta(days=random.randint(2,14))
+
+    if end_date <= dob:
+        continue
+
+    age_days = (assign_date - dob).days
+    age_years = calculate_age_appt(patient_dob_lookup[patient_choice], start_date)
+        
+    if age_days <= 14:
+        if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+            continue
+    elif age_years < 18:
+        if "Pediatrics" not in dept_name:
+            continue
+
     # store usage
     room_usage.setdefault(room_id, []).append((start_date, end_date))
     patient_usage.setdefault(patient_choice, []).append((start_date, end_date))
@@ -413,8 +442,6 @@ for i in range(1, NUM_ROOM_HISTORY + 1):
     ])
 
 # Appt
-
-pediatric_keywords = ["Maternity Ward", "Pediatrics", "Neonatal Intensive Care Unit (NICU)", "Labor and Delivery"]
 
 # status_list = ["Scheduled", "Completed", "Cancelled"]
 
@@ -440,8 +467,16 @@ while appointment_id <= NUM_APPOINTMENT:
 
     dept_name = next(d[1] for d in department if d[0] == dept_id)
 
-    if any(k.lower() in dept_name.lower() for k in pediatric_keywords):
-        if patient_age >= 18:
+    age_days = (appt_date - datetime.strptime(patient_dob, "%Y-%m-%d").date()).days
+
+    if age_days <= 14:
+        if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+            continue
+    elif patient_age < 18:
+        if "Pediatrics" not in dept_name:
+            continue
+    else:
+        if "Pediatrics" in dept_name:
             continue
     
     appt_time = generate_appointment_time()
@@ -480,7 +515,7 @@ while appointment_id <= NUM_APPOINTMENT:
 
     appointment_id += 1
 
-# Medical Records and Perscriptions
+# Medical Records and Prescriptions
 record_medications = {}
 latest_patient_department = {}
 
@@ -522,15 +557,24 @@ for i in range(1, NUM_MEDICAL_RECORDS + 1):
 
     valid_doctor = []
 
+    dob_date = datetime.strptime(patient_dob,"%Y-%m-%d").date()
+
+    age_days = (visit_date - dob_date).days
+    age_years = calculate_age_appt(patient_dob, visit_date)
+
     for d in possible_doctors:
         dept_id = d[8]
         dept_name = department_lookup.get(dept_id)
 
-        if dept_name == "Pediatrics":
-            if age < 18:
+        if age_days <= 14:
+            if any(k.lower() in dept_name.lower() for k in baby_keywords):
+                valid_doctor.append(d)
+        elif age_years < 18:
+            if "Pediatrics" in dept_name:
                 valid_doctor.append(d)
         else:
-            valid_doctor.append(d)
+            if "Pediatrics" not in dept_name:
+                valid_doctor.append(d)
     
     if valid_doctor:
         doctor_choice = random.choice(valid_doctor)
@@ -599,8 +643,8 @@ for rec_id, meds in record_medications.items():
         if not med_match:
             continue
 
-        perscription.append([
-            len(perscription) + 1,
+        prescription.append([
+            len(prescription) + 1,
             random.randint(10, 500),
             random.choice(["Once a day", "Twice a day"]),
             random.randint(3, 14),
@@ -619,8 +663,8 @@ for rec_id, meds in record_medications.items():
 
 # print("Medical Records")
 # print(medical_records[:5])
-# print("\nPerscription")
-# print(perscription[:5])
+# print("\nPrescription")
+# print(prescription[:5])
 # print("\nMedication")
 # print(medicine[:5])
 
@@ -681,7 +725,7 @@ write_csv(
 write_csv(
     "staff.csv",
     staff,
-    ["StaffID","FirstName","LastName","Role","PhoneNumber","Email","ShiftHours","DepartmentID"]
+    ["StaffID","FirstName","LastName","Role","PhoneNumber","Email","Address", "ShiftHours","DepartmentID"]
 )
 
 write_csv(
@@ -711,11 +755,11 @@ write_csv(
 write_csv(
     "medical_records.csv",
     medical_records,
-    ["RecordID","VisitDate","Diagnosis","PatientID","DoctorID"]
+    ["RecordID","VisitDate","Diagnosis","TreatmentPlan", "PatientID","DoctorID"]
 )
 
 write_csv(
     "prescription.csv",
-    perscription,
+    prescription,
     ["PrescriptionID","Dosage","Frequency","DurationDays","RecordID","MedicineID"]
 )
