@@ -7,6 +7,7 @@ import difflib
 from rapidfuzz import process
 from datetime import datetime, date
 from collections import Counter
+from datetime import timedelta
 
 fake = Faker()
 fake.add_provider(HealthcareProvider)
@@ -48,12 +49,6 @@ def calculate_age_appt(dob_string, appt_date):
     )
     return age
 
-def calculate_age(dob_string):
-    dob = datetime.strptime(dob_string, "%Y-%m-%d").date()
-    today = date.today()
-    return today.year - dob.year - ((today.month, today.day) < (dob.month, dob.day))
-
-
 def generate_appointment_date(dob_string):
     dob = datetime.strptime(dob_string, "%Y-%m-%d").date()
     today = date.today()
@@ -61,8 +56,8 @@ def generate_appointment_date(dob_string):
     start = today.replace(year=today.year - 3)
     end = today.replace(year=today.year + 1)
 
-    if dob > start:
-        start = dob
+    if dob >= start:
+        return dob + timedelta(days=1)
 
     appt_date = fake.date_between(start_date=start, end_date=end)
 
@@ -194,14 +189,33 @@ for i, department_name in enumerate(department_names, start=1):
 department_id = [d[0] for d in department]
 
 # Billing
+patient_dob_lookup = {p[0]:p[3] for p in patient}
+
 for i in range(1, NUM_BILLING + 1):
     status = random.choice(["Paid", "Unpaid"])
     insurance = random.choice(["Yes", "No"])
     no_insurance =["Cash", "Credit", "Check"]
     has_insurance = ["Cash", "Credit", "Check", "Insurance"]
 
+    today = date.today()
+    three_years_ago = today.replace(year=today.year -3)
+    yesterday = today - timedelta(days=1)
+
+    patient_choice = random.choice(patient_id)
+    dob = datetime.strptime(patient_dob_lookup[patient_choice], "%Y-%m-%d").date()
+
+    payment_date = None
     if status == "Paid":
-        payment_date = fake.date_this_year().isoformat()
+        start_limit = max(dob, three_years_ago)
+
+        if start_limit >= yesterday:
+            continue
+
+        payment_date = fake.date_between(
+            start_date=start_limit,
+            end_date=yesterday
+        )
+            # payment_date = fake.date_this_year().isoformat()
     else:
         payment_date = None
 
@@ -211,7 +225,7 @@ for i in range(1, NUM_BILLING + 1):
         payment_method = random.choice(has_insurance)
     billing.append([
         i,
-        random.choice(patient_id),
+        patient_choice,
         round(random.uniform(40, 2000), 2),
         status,
         payment_date,
@@ -220,7 +234,7 @@ for i in range(1, NUM_BILLING + 1):
     ])
 
 # Doctor
-department_lookup = {d[1]: d[0] for d in department}
+dept_name_to_id = {d[1]: d[0] for d in department}
 department_list = [d[1] for d in department]
 
 for i in range(1, NUM_DOCTOR + 1):
@@ -240,7 +254,7 @@ for i in range(1, NUM_DOCTOR + 1):
     else:
         dept_name = random.choice(department_list)
 
-    dept_id = department_lookup[dept_name]
+    dept_id = dept_name_to_id[dept_name]
 
     doctor.append([
         i,
@@ -294,7 +308,7 @@ for d in department:
 
     ward_departments.setdefault(ward, []).append(dept_id)
 
-department_lookup = {d[0]: d[1] for d in department}
+dept_id_to_name = {d[0]: d[1] for d in department}
 room_id = 1
 
 for ward, dept_list in ward_departments.items():
@@ -303,7 +317,7 @@ for ward, dept_list in ward_departments.items():
 
     for floor, dept_id in enumerate(dept_list, start=1):
 
-        dept_name = department_lookup[dept_id]
+        dept_name = dept_id_to_name[dept_id]
         for room_num in range(1, 6):
 
             room_number = f"{ward_letter}{floor}{room_num:02}"
@@ -334,9 +348,19 @@ for ward, dept_list in ward_departments.items():
 room_num = [r[0] for r in room]
 
 # Room Assignment
+# check if an infant exsists
+today = date.today()
+infants = []
+
+for pid, dob_str in patient_dob_lookup.items():
+    dob=datetime.strptime(dob_str, "%Y-%m-%d").date()
+
+    if (today - dob).days <= 14:
+        infants.append(pid)
+
+has_infants = len(infants) > 0
 
 baby_keywords = ["Maternity Ward", "Neonatal Intensive Care Unit (NICU)", "Labor and Delivery"]
-patient_dob_lookup = {p[0]:p[3] for p in patient}
 
 assigned_pairs = set()
 assignment_id = 1
@@ -347,9 +371,13 @@ for r in occupied_rooms:
 
     r_id = r[0]
     dept_id = r[3]
-    dept_name = department_lookup.get(dept_id)
+    dept_name = dept_id_to_name.get(dept_id)
 
+    attempts = 0
     while True:
+
+        attempts += 1
+
         patient_choice = random.choice(patient_id)
         dob = datetime.strptime(patient_dob_lookup[patient_choice], "%Y-%m-%d").date()
 
@@ -361,12 +389,21 @@ for r in occupied_rooms:
         age_days = (assign_date - dob).days
         age_years = calculate_age_appt(patient_dob_lookup[patient_choice], assign_date)
         
-        if age_days <= 14:
-            if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+        if any(k.lower() in dept_name.lower() for k in baby_keywords):
+            if has_infants:
+                if age_days > 14:
+                    continue
+            else:
+                pass
+        elif "Pediatrics" in dept_name:
+            if age_years >= 18:
                 continue
-        elif age_years < 18:
-            if "Pediatrics" not in dept_name:
-                continue
+        # if age_days <= 14:
+        #     if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+        #         continue
+        # elif age_years < 18:
+        #     if "Pediatrics" not in dept_name:
+        #         continue
         
         pair = (patient_choice, r_id)
 
@@ -374,6 +411,8 @@ for r in occupied_rooms:
             assigned_pairs.add(pair)
             break
     
+        if attempts > 50:
+            continue
     room_assignment.append([
         assignment_id,
         assign_date.isoformat(),
@@ -388,14 +427,12 @@ for r in occupied_rooms:
 room_usage = {}
 patient_usage = {}
 
-from datetime import timedelta
-
 for i in range(1, NUM_ROOM_HISTORY + 1):
 
     room_choice = random.choice(room)
     room_id = room_choice[0]
     dept_id = room_choice[3]
-    dept_name = department_lookup.get(dept_id)
+    dept_name = dept_id_to_name.get(dept_id)
     patient_choice = random.choice(patient_id)
 
     today = date.today()
@@ -422,13 +459,22 @@ for i in range(1, NUM_ROOM_HISTORY + 1):
 
     age_days = (assign_date - dob).days
     age_years = calculate_age_appt(patient_dob_lookup[patient_choice], start_date)
-        
-    if age_days <= 14:
-        if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+    
+    if any(k.lower() in dept_name.lower() for k in baby_keywords):
+            if has_infants:
+                if age_days > 14:
+                    continue
+            else:
+                pass
+    elif "Pediatrics" in dept_name:
+        if age_years >= 18:
             continue
-    elif age_years < 18:
-        if "Pediatrics" not in dept_name:
-            continue
+    # if age_days <= 14:
+    #     if not any(k.lower() in dept_name.lower() for k in baby_keywords):
+    #         continue
+    # elif age_years < 18:
+    #     if "Pediatrics" not in dept_name:
+    #         continue
 
     # store usage
     room_usage.setdefault(room_id, []).append((start_date, end_date))
@@ -446,12 +492,15 @@ for i in range(1, NUM_ROOM_HISTORY + 1):
 # status_list = ["Scheduled", "Completed", "Cancelled"]
 
 patient_schedule = {}
-today = date.today()
+doctor_schedule = {}
+# today = date.today()
 
 appointment_id = 1
+attempts = 0
+# while appointment_id <= NUM_APPOINTMENT:
+while appointment_id <= NUM_APPOINTMENT and attempts < NUM_APPOINTMENT * 50:
 
-while appointment_id <= NUM_APPOINTMENT:
-
+    attempts += 1
     patient_choice = random.choice(patient)
 
     patient_id_val = patient_choice[0]
@@ -467,7 +516,8 @@ while appointment_id <= NUM_APPOINTMENT:
 
     dept_name = next(d[1] for d in department if d[0] == dept_id)
 
-    age_days = (appt_date - datetime.strptime(patient_dob, "%Y-%m-%d").date()).days
+    dob_date = datetime.strptime(patient_dob, "%Y-%m-%d").date()
+    age_days = (appt_date - dob_date).days
 
     if age_days <= 14:
         if not any(k.lower() in dept_name.lower() for k in baby_keywords):
@@ -484,6 +534,7 @@ while appointment_id <= NUM_APPOINTMENT:
     ## patient scheduling 
 
     patient_day = patient_schedule.setdefault(patient_id_val, {}).setdefault(appt_date, [])
+    doctor_day = doctor_schedule.setdefault(doctor_id_val, {}).setdefault(assign_date, [])
     conflict = False
     
     for t in patient_day:
@@ -491,17 +542,32 @@ while appointment_id <= NUM_APPOINTMENT:
             conflict = True
             break
 
+    # doctor scheduling rule
+
+    for t in doctor_day:
+        if abs(t - appt_time) < 120:
+            conflict = True
+            break
+    
     if conflict:
         continue
 
     patient_day.append(appt_time)
+    doctor_day.append(appt_time)
 
     ## appt status rules
 
     if appt_date < today:
         status = random.choices(["Completed", "Cancelled"], weights=[0.7, 0.3])[0]
-    else:
+    elif appt_date > today:
         status = random.choices(["Scheduled", "Cancelled"], weights=[0.7, 0.3])[0]
+    else:
+        current_minutes = datetime.now().hour * 60 + datetime.now().minute
+
+        if appt_time <= current_minutes:
+            status = random.choices(["Completed", "Cancelled"], weights=[0.7, 0.3])[0]
+        else :
+            status = "Scheduled"
 
     appointment.append([
         appointment_id,
@@ -544,8 +610,6 @@ for i in range(1, NUM_MEDICAL_RECORDS + 1):
 
     visit_date = generate_visit_date(patient_dob)
 
-    age = calculate_age(patient_dob)
-
     specialty = scenario["medical_specialty"]
     diagnosis = scenario["disease"]
 
@@ -564,7 +628,7 @@ for i in range(1, NUM_MEDICAL_RECORDS + 1):
 
     for d in possible_doctors:
         dept_id = d[8]
-        dept_name = department_lookup.get(dept_id)
+        dept_name = dept_id_to_name.get(dept_id)
 
         if age_days <= 14:
             if any(k.lower() in dept_name.lower() for k in baby_keywords):
@@ -596,28 +660,6 @@ for i in range(1, NUM_MEDICAL_RECORDS + 1):
         patient_id_val,
         doctor_id_val
     ])
-
-    if treatment_plan == "Therapy":
-
-        num_sessions = random.randint(3,8)
-
-        for n in range(num_sessions):
-
-            follow_up_date = visit_date + timedelta(days=random.randint(14,35))
-
-            if follow_up_date > date.today():
-                break
-            
-            appt_time = generate_appointment_time()
-            appointment.append([
-                len(appointment)+1,
-                follow_up_date.isoformat(),
-                format_time(appt_time),
-                "Scheduled",
-                patient_id_val,
-                doctor_id_val,
-                doctor_choice[8]
-            ])
 
     # some fake scneraio can have multiple medications assigned to it
     record_medications[i] = scenario["medications"]
