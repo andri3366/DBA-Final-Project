@@ -34,7 +34,7 @@ create table Department (
 
 create table Billing (
     BillingID int primary key,
-    PatientID int,
+    PatientID int not null,
     Amount decimal(6,2),
     PayStatus varchar(6),
     PaymentDate date,
@@ -52,7 +52,7 @@ create table Doctor (
     Email varchar(75),
     Address varchar(100),
     Availability int,
-    DepartmentID int,
+    DepartmentID int not null,
     foreign key (DepartmentID) references Department(DepartmentID)
 )
 
@@ -65,7 +65,7 @@ create table Staff (
     Email varchar(75),
     Address varchar(100),
     ShiftHours varchar(13),
-    DepartmentID int,
+    DepartmentID int not null,
     foreign key (DepartmentID) references Department(DepartmentID)
 )
 
@@ -73,23 +73,23 @@ create table Room (
     RoomNum varchar(5) primary key,
     RoomType varchar(9),
     Availability varchar(9),
-    DepartmentID int,
+    DepartmentID int not null,
     foreign key (DepartmentID) references Department(DepartmentID)    
 )
 
 create table RoomAssignment(
     AssignmentID int primary key,
     AdmittedDate date,
-    PatientID int,
-    RoomNum varchar(5),
+    PatientID int not null,
+    RoomNum varchar(5) not null,
     foreign key (PatientID) references Patient(PatientID),
     foreign key (RoomNum) references Room(RoomNum)
 )
 
 create table RoomHistory (
     HistoryID int primary key,
-    RoomNum varchar(5),
-    PatientID int,
+    RoomNum varchar(5) not null,
+    PatientID int not null,
     DischargeDate date,
     foreign key (RoomNum) references Room(RoomNum),
     foreign key (PatientID) references Patient(PatientID)
@@ -100,9 +100,9 @@ create table Appointment (
     AppointmentDate date,
     AppointmentTime time,
     Status varchar(9),
-    PatientID int,
-    DoctorID int,
-    DepartmentID int,
+    PatientID int not null,
+    DoctorID int not null,
+    DepartmentID int not null,
     foreign key (PatientID) references Patient(PatientID),
     foreign key (DoctorID) references Doctor(DoctorID),
     foreign key (DepartmentID) references Department(DepartmentID)
@@ -113,19 +113,19 @@ create table MedicalRecords (
     VisitDate date,
     Diagnosis varchar(50),
     TreatmentPlan varchar(10),
-    PatientID int,
-    DoctorID int,
+    PatientID int not null,
+    DoctorID int not null,
     foreign key (PatientID) references Patient(PatientID),
     foreign key (DoctorID) references Doctor(DoctorID)
 )
 
-create table Perscription (
-    PerscriptionID int primary key,
+create table Prescription (
+    PrescriptionID int primary key,
     Dosage int,
     Frequency varchar(11),
     DurationDays int,
-    RecordID int,
-    MedicineID int,
+    RecordID int not null,
+    MedicineID int not null,
     foreign key (RecordID) references MedicalRecords(RecordID),
     foreign key (MedicineID) references Medicine(MedicineID)
 )

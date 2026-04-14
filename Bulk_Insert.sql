@@ -98,7 +98,7 @@ with (
     tablock
 );
 
-Bulk insert Perscription
+Bulk insert Prescription
 from 'C:\DBA_FinalProject\csv_output\prescription.csv'
 with (
     firstrow = 2,
