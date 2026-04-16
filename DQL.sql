@@ -167,8 +167,8 @@ ORDER BY AppointmentCount DESC, dep.DepartmentName, DayOfWeek, HourOfDay;
 -- PHARMACY AND PRESCRIPTIONS
 
 -- Top Prescribed Medicines:
-SELECT TOP 5 m.MedicineID, m.MedicineName, COUNT(pr.PerscriptionID) AS TimesPrescribed
-FROM Perscription pr
+SELECT TOP 5 m.MedicineID, m.MedicineName, COUNT(pr.PrescriptionID) AS TimesPrescribed
+FROM Prescription pr
 JOIN Medicine m
     ON pr.MedicineID = m.MedicineID
 JOIN MedicalRecords mr
@@ -178,9 +178,9 @@ GROUP BY m.MedicineID, m.MedicineName
 ORDER BY TimesPrescribed DESC, m.MedicineName;
 
 -- Diagnoses with Most Prescriptions:
-SELECT mr.Diagnosis, COUNT(pr.PerscriptionID) AS TotalPrescriptions
+SELECT mr.Diagnosis, COUNT(pr.PrescriptionID) AS TotalPrescriptions
 FROM MedicalRecords mr
-JOIN Perscription pr
+JOIN Prescription pr
     ON mr.RecordID = pr.RecordID
 JOIN Medicine m
     ON pr.MedicineID = m.MedicineID
