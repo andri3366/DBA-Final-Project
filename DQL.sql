@@ -238,11 +238,17 @@ ORDER BY r.RoomType;
 
 -- Staff Distribution:
 -- Headcount by role and department
-SELECT dep.DepartmentName, s.Role, COUNT(s.StaffID) AS StaffCount
+SELECT dep.DepartmentName, s.Role, COUNT(*) AS StaffCount
 FROM Staff s
-JOIN Department dep
+JOIN Department dep 
     ON s.DepartmentID = dep.DepartmentID
-LEFT JOIN Doctor d
-    ON dep.DepartmentID = d.DepartmentID
 GROUP BY dep.DepartmentName, s.Role
-ORDER BY dep.DepartmentName, StaffCount DESC;
+
+UNION ALL
+
+SELECT dep.DepartmentName,'Doctor' AS Role, COUNT(*) AS StaffCount
+FROM Doctor d
+JOIN Department dep
+    ON d.DepartmentID = dep.DepartmentID
+GROUP BY dep.DepartmentName
+ORDER BY DepartmentName, StaffCount DESC;

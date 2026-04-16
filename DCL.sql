@@ -15,24 +15,24 @@ IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_admin')
     DROP USER hospital_admin;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_user1')
-    DROP USER hospital_user1;
+IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'nurse_user')
+    DROP USER nurse_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_user2')
-    DROP USER hospital_user2;
+IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'receptionist_user')
+    DROP USER receptionist_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_user3')
-    DROP USER hospital_user3;
+IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'technician_user')
+    DROP USER technician_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_user4')
-    DROP USER hospital_user4;
+IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'doctor_user')
+    DROP USER doctor_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'hospital_user5')
-    DROP USER hospital_user5;
+IF EXISTS (SELECT 1 FROM sys.database_principals WHERE name = 'operations_admin_user')
+    DROP USER operations_admin_user;
 GO
 
 -- Switch to master - logins are in server level
@@ -44,39 +44,39 @@ IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_admin')
     DROP LOGIN hospital_admin;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_user1')
-    DROP LOGIN hospital_user1;
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'nurse_user')
+    DROP LOGIN nurse_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_user2')
-    DROP LOGIN hospital_user2;
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'receptionist_user')
+    DROP LOGIN receptionist_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_user3')
-    DROP LOGIN hospital_user3;
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'technician_user')
+    DROP LOGIN technician_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_user4')
-    DROP LOGIN hospital_user4;
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'doctor_user')
+    DROP LOGIN doctor_user;
 GO
 
-IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'hospital_user5')
-    DROP LOGIN hospital_user5;
+IF EXISTS (SELECT 1 FROM sys.server_principals WHERE name = 'operations_admin_user')
+    DROP LOGIN operations_admin_user;
 GO
 
 -- Create logins
 -- NOTE: for the project the pws are hardcoded 
 CREATE LOGIN hospital_admin WITH PASSWORD = 'DbprojectAdmin';
 GO
-CREATE LOGIN hospital_user1 WITH PASSWORD = 'DbprojectUser1';
+CREATE LOGIN nurse_user WITH PASSWORD = 'DbprojectNurse';
 GO
-CREATE LOGIN hospital_user2 WITH PASSWORD = 'DbprojectUser2';
+CREATE LOGIN receptionist_user WITH PASSWORD = 'DbprojectReceptionist';
 GO
-CREATE LOGIN hospital_user3 WITH PASSWORD = 'DbprojectUser3';
+CREATE LOGIN technician_user WITH PASSWORD = 'DbprojectTechnician';
 GO
-CREATE LOGIN hospital_user4 WITH PASSWORD = 'DbprojectUser4';
+CREATE LOGIN doctor_user WITH PASSWORD = 'DbprojectDoctor';
 GO
-CREATE LOGIN hospital_user5 WITH PASSWORD = 'DbprojectUser5';
+CREATE LOGIN operations_admin_user WITH PASSWORD = 'DbprojectOperationsAdmin';
 GO
 
 -- Switch back to Hospital DB
@@ -86,15 +86,15 @@ GO
 -- Map logins
 CREATE USER hospital_admin FOR LOGIN hospital_admin;
 GO
-CREATE USER hospital_user1 FOR LOGIN hospital_user1;
+CREATE USER nurse_user FOR LOGIN nurse_user;
 GO
-CREATE USER hospital_user2 FOR LOGIN hospital_user2;
+CREATE USER receptionist_user FOR LOGIN receptionist_user;
 GO
-CREATE USER hospital_user3 FOR LOGIN hospital_user3;
+CREATE USER technician_user FOR LOGIN technician_user;
 GO
-CREATE USER hospital_user4 FOR LOGIN hospital_user4;
+CREATE USER doctor_user FOR LOGIN doctor_user;
 GO
-CREATE USER hospital_user5 FOR LOGIN hospital_user5;
+CREATE USER operations_admin_user FOR LOGIN operations_admin_user;
 GO
 
 -- Assign roles
@@ -103,15 +103,15 @@ ALTER ROLE db_owner ADD MEMBER hospital_admin;
 GO
 
 -- Hospital users given db_datareader (built-in role) = read-only acess
-ALTER ROLE db_datareader ADD MEMBER hospital_user1;
+ALTER ROLE db_datareader ADD MEMBER nurse_user;
 GO
-ALTER ROLE db_datareader ADD MEMBER hospital_user2;
+ALTER ROLE db_datareader ADD MEMBER receptionist_user;
 GO
-ALTER ROLE db_datareader ADD MEMBER hospital_user3;
+ALTER ROLE db_datareader ADD MEMBER technician_user;
 GO
-ALTER ROLE db_datareader ADD MEMBER hospital_user4;
+ALTER ROLE db_datareader ADD MEMBER doctor_user;
 GO
-ALTER ROLE db_datareader ADD MEMBER hospital_user5;
+ALTER ROLE db_datareader ADD MEMBER operations_admin_user;
 GO
 
 -- List user names and role names
