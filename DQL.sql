@@ -28,27 +28,44 @@ FROM (
 
 -- Patient Demographics:
 -- Breakdown by age group and gender
-SELECT 
-    CASE 
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) < 18 THEN 'Youth (Under 18)'
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) BETWEEN 18 AND 35 THEN 'Young Adults (18–35)'
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) BETWEEN 36 AND 55 THEN 'Middle Age (36–55)'
-        ELSE 'Seniors (56+)'
-    END AS AgeGroup,
-    p.Sex,
-    COUNT(DISTINCT p.PatientID) AS PatientCount
-FROM Patient p
+WITH PatientAges AS (
+    SELECT
+        p.PatientID,
+        p.Sex,
+        DATEDIFF(YEAR, p.Dob, GETDATE())
+        - CASE
+            WHEN DATEADD(YEAR, DATEDIFF(YEAR, p.Dob, GETDATE()), p.Dob) > GETDATE()
+            THEN 1 ELSE 0
+          END AS Age
+    FROM Patient p
+),
+Grouped AS (
+    SELECT
+        PatientID,
+        Sex,
+        CASE
+            WHEN Age BETWEEN 0 AND 14 THEN 'Children (0–14)'
+            WHEN Age BETWEEN 15 AND 24 THEN 'Youth (15–24)'
+            WHEN Age BETWEEN 25 AND 64 THEN 'Adults (25–64)'
+            ELSE 'Seniors (65+)'
+        END AS AgeGroup,
+        CASE
+            WHEN Age BETWEEN 0 AND 14 THEN 1
+            WHEN Age BETWEEN 15 AND 24 THEN 2
+            WHEN Age BETWEEN 25 AND 64 THEN 3
+            ELSE 4
+        END AS SortOrder
+    FROM PatientAges
+)
+SELECT
+    g.AgeGroup,
+    g.Sex,
+    COUNT(DISTINCT g.PatientID) AS PatientCount
+FROM Grouped g
 JOIN Appointment a
-    ON p.PatientID = a.PatientID
-GROUP BY 
-    CASE 
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) < 18 THEN 'Youth (Under 18)'
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) BETWEEN 18 AND 35 THEN 'Young Adults (18–35)'
-        WHEN DATEDIFF(YEAR, p.Dob, GETDATE()) BETWEEN 36 AND 55 THEN 'Middle Age (36–55)'
-        ELSE 'Seniors (56+)'
-    END,
-    p.Sex
-ORDER BY AgeGroup, p.Sex;
+    ON g.PatientID = a.PatientID
+GROUP BY g.AgeGroup, g.Sex, g.SortOrder
+ORDER BY g.SortOrder, g.Sex;
 
 -- DOCTOR WORKLOAD AND AVAILABILITY
 
