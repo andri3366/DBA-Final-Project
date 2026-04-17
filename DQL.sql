@@ -13,7 +13,7 @@ The queries cover:
 USE HospitalDB;
 GO
 
--- PATIENT AND DEMOGRAPHICS
+-- PATIENT ACTIVITY AND DEMOGRAPHICS
 
 -- Patient Activity:
 -- Average number of appointments per patient in the last 6 months
@@ -233,8 +233,6 @@ LEFT JOIN RoomHistory rh
    AND ra.PatientID = rh.PatientID
 GROUP BY r.RoomType
 ORDER BY r.RoomType;
-
--- STAFF
 
 -- Staff Distribution:
 -- Headcount by role and department
