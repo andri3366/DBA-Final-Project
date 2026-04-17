@@ -153,8 +153,6 @@ SELECT d.Specialty, COUNT(a.AppointmentID) AS TotalAppointments
 FROM Appointment a
 JOIN Doctor d
     ON a.DoctorID = d.DoctorID
-JOIN Department dep
-    ON d.DepartmentID = dep.DepartmentID
 WHERE a.Status = 'Completed'
 GROUP BY d.Specialty
 ORDER BY TotalAppointments DESC;
@@ -166,8 +164,6 @@ SELECT dep.DepartmentName, COUNT(a.AppointmentID) AS TotalAppointments,
 FROM Appointment a
 JOIN Department dep
     ON a.DepartmentID = dep.DepartmentID
-JOIN Doctor d
-    ON a.DoctorID = d.DoctorID
 GROUP BY dep.DepartmentName
 ORDER BY CancellationRatePercent DESC;
 
@@ -176,8 +172,6 @@ SELECT dep.DepartmentName, DATENAME(WEEKDAY, a.AppointmentDate) AS DayOfWeek, DA
 FROM Appointment a
 JOIN Department dep
     ON a.DepartmentID = dep.DepartmentID
-JOIN Doctor d
-    ON a.DoctorID = d.DoctorID
 GROUP BY dep.DepartmentName, DATENAME(WEEKDAY, a.AppointmentDate), DATEPART(HOUR, a.AppointmentTime)
 ORDER BY AppointmentCount DESC, dep.DepartmentName, DayOfWeek, HourOfDay;
 
@@ -199,8 +193,6 @@ SELECT mr.Diagnosis, COUNT(pr.PrescriptionID) AS TotalPrescriptions
 FROM MedicalRecords mr
 JOIN Prescription pr
     ON mr.RecordID = pr.RecordID
-JOIN Medicine m
-    ON pr.MedicineID = m.MedicineID
 GROUP BY mr.Diagnosis
 ORDER BY TotalPrescriptions DESC;
 
