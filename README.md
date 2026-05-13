@@ -1,4 +1,4 @@
-# Flight Price Prediction Web App
+# Hospital Management Database System
 
 This project is a hospital management database system. The system was designed to manage and organize hospital operations data, including patients, doctors, appointments, medical records, prescriptions, billing, staff, and room assignments.
 
